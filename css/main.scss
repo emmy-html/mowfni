@@ -94,9 +94,10 @@ textarea {
   padding: 0.2em 0;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* Fonts & Colors will go here */ 
+
+/* Universal Styles */ 
+
 
 /* ==========================================================================
    Helper classes
@@ -108,6 +109,20 @@ textarea {
 
 .hidden {
   display: none !important;
+}
+
+/* Author's Styles */ 
+.navbar-nav {
+  text-align: center;
+}
+nav.navbar {
+}
+/* Hero section */ 
+#hero {
+  margin-top: 200px;
+}
+body {
+  background: red;
 }
 
 /*

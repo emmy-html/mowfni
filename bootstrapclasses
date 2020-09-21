@@ -1,0 +1,27 @@
+CLASSES:
+navbar **
+fixed-top *
+navbar-expand-lg **
+navbar-light **
+bg-light **
+navbar-brand **
+navbar-toggler **
+navbar-toggler-icon **
+collapse **
+navbar-collapse **
+navbar-nav **
+ml-auto **
+mr-5 **
+nav-item *
+active ?
+nav-link **
+nav-item **
+dropdown **
+dropdown-toggle **
+
+dropdown-menu **
+dropdown-item **
+
+ID:
+navbarNavDropdown
+navbarDropdownMenuLink
