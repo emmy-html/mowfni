@@ -457,7 +457,14 @@ footer {
   #cta .rounded-green-button {
     font-size: 2rem;
     margin-top: 0px;
-    padding: 10px 60px; } }
+    padding: 10px 60px; }
+
+  /* Our Impact section */
+  #our-impact .impact-content {
+    display: flex;
+    flex-flow: row nowrap; }
+    #our-impact .impact-content article {
+      width: 33.3%; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

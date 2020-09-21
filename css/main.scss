@@ -511,6 +511,16 @@ footer {
       padding: 10px 60px;
     }
   }
+  /* Our Impact section */ 
+  #our-impact {
+    .impact-content {
+      display: flex;
+      flex-flow: row nowrap;
+      article {
+        width: 33.3%;
+      }
+    }
+  }
 }
 /*
 * Hide only visually, but have it available for screen readers:
