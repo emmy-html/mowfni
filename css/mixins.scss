@@ -21,3 +21,8 @@
     border-radius: 5px;
     padding: 5px 15px;
 }
+@mixin body-blue-button {
+    background: $light-blue;
+    border-radius: 5px;
+    padding: 5px 15px;
+}

@@ -119,6 +119,8 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: Poppins;
   text-transform: uppercase;
+  margin: 0;
+  text-align: center;
 }
 h2, h4 {
   font-weight: 400;
@@ -126,9 +128,11 @@ h2, h4 {
 .content-wrapper {
   margin: 0px 20px;
 }
+.button-container {
+  @include button-container;
+}
 /* Hero section */ 
 #hero {
-  height: 450px;
   .content-wrapper {
     margin-top: 300px;
   }
@@ -142,21 +146,19 @@ h2, h4 {
       font-size: 1.02rem;
     }
   }
-  .button-container {
-    @include button-container;
-  }
   .rounded-green-button {
     @include body-green-button;
     min-width: 135px;
     max-width: 140px;
     margin: 0 auto;
+    margin-top: 10px;
   }
   .newsletter-container {
     background: $dark-blue;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 25px 0px;
+    margin-top: 25px;
     padding: 25px 0px;
     .content-wrapper {
       margin-top: 0px;
@@ -164,6 +166,7 @@ h2, h4 {
     h2, h3 {
       line-height: 1.30rem;
       margin: 0;
+      text-align: left;
     }
     h2 {
       color: $lime-green;
@@ -190,11 +193,40 @@ h2, h4 {
         background: $lime-green;
         color: $dark-blue;
         font-family: $heading-font;
-        font-weights: 700;
+        font-weight: 700;
         text-transform: uppercase;
         margin-top: 10px;
       }
     }
+  }
+}
+/* COVID CTA */ 
+#cta {
+  background: $orange;
+  .content-wrapper {
+    padding: 25px 0px;
+  }
+  h1 {
+    color: #fff;
+  }
+  p {
+    color: $dark-blue;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.45rem;
+    text-align: center;
+  }
+  .button-container {
+    font-size: 1.25rem;
+  }
+  .rounded-blue-button {
+    @include body-blue-button;
+    padding: 10px 0px;
+  }
+  .rounded-green-button {
+    @include body-green-button;
+    margin-top: 10px;
+    padding: 10px 0px;
   }
 }
 /*

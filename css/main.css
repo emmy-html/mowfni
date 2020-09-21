@@ -102,7 +102,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Poppins;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center; }
 
 h2, h4 {
   font-weight: 400; }
@@ -110,74 +112,102 @@ h2, h4 {
 .content-wrapper {
   margin: 0px 20px; }
 
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; }
+  .button-container a:link,
+  .button-container a:visited {
+    color: #003952;
+    font-family: Poppins;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase; }
+
 /* Hero section */
-#hero {
-  height: 450px; }
-  #hero .content-wrapper {
-    margin-top: 300px; }
-  #hero h1 {
-    padding-top: 50px;
-    font-size: 1.44rem;
-    line-height: 1.25rem;
-    text-align: center; }
-    #hero h1 span {
-      display: block;
-      font-size: 1.02rem; }
-  #hero .button-container {
+#hero .content-wrapper {
+  margin-top: 300px; }
+#hero h1 {
+  padding-top: 50px;
+  font-size: 1.44rem;
+  line-height: 1.25rem;
+  text-align: center; }
+  #hero h1 span {
+    display: block;
+    font-size: 1.02rem; }
+#hero .rounded-green-button {
+  background: #a9cf38;
+  border-radius: 5px;
+  padding: 5px 15px;
+  min-width: 135px;
+  max-width: 140px;
+  margin: 0 auto;
+  margin-top: 10px; }
+#hero .newsletter-container {
+  background: #003952;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 25px;
+  padding: 25px 0px; }
+  #hero .newsletter-container .content-wrapper {
+    margin-top: 0px; }
+  #hero .newsletter-container h2, #hero .newsletter-container h3 {
+    line-height: 1.30rem;
+    margin: 0;
+    text-align: left; }
+  #hero .newsletter-container h2 {
+    color: #a9cf38;
+    font-size: 1rem; }
+  #hero .newsletter-container h3 {
+    color: #fff;
+    font-size: 1.95rem; }
+  #hero .newsletter-container form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center; }
-    #hero .button-container a:link,
-    #hero .button-container a:visited {
+    padding: 20px 0px; }
+    #hero .newsletter-container form input {
+      border: none;
+      border-radius: 10px;
+      padding: 10px 5px; }
+    #hero .newsletter-container form input[type="email"] {
+      color: lightgray;
+      text-transform: uppercase; }
+    #hero .newsletter-container form input[type="submit"] {
+      background: #a9cf38;
       color: #003952;
       font-family: Poppins;
       font-weight: 700;
-      text-decoration: none;
-      text-transform: uppercase; }
-  #hero .rounded-green-button {
+      text-transform: uppercase;
+      margin-top: 10px; }
+
+/* COVID CTA */
+#cta {
+  background: #e06c29; }
+  #cta .content-wrapper {
+    padding: 25px 0px; }
+  #cta h1 {
+    color: #fff; }
+  #cta p {
+    color: #003952;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.45rem;
+    text-align: center; }
+  #cta .button-container {
+    font-size: 1.25rem; }
+  #cta .rounded-blue-button {
+    background: #00b5c2;
+    border-radius: 5px;
+    padding: 5px 15px;
+    padding: 10px 0px; }
+  #cta .rounded-green-button {
     background: #a9cf38;
     border-radius: 5px;
     padding: 5px 15px;
-    min-width: 135px;
-    max-width: 140px;
-    margin: 0 auto; }
-  #hero .newsletter-container {
-    background: #003952;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 25px 0px;
-    padding: 25px 0px; }
-    #hero .newsletter-container .content-wrapper {
-      margin-top: 0px; }
-    #hero .newsletter-container h2, #hero .newsletter-container h3 {
-      line-height: 1.30rem;
-      margin: 0; }
-    #hero .newsletter-container h2 {
-      color: #a9cf38;
-      font-size: 1rem; }
-    #hero .newsletter-container h3 {
-      color: #fff;
-      font-size: 1.95rem; }
-    #hero .newsletter-container form {
-      display: flex;
-      flex-direction: column;
-      padding: 20px 0px; }
-      #hero .newsletter-container form input {
-        border: none;
-        border-radius: 10px;
-        padding: 10px 5px; }
-      #hero .newsletter-container form input[type="email"] {
-        color: lightgray;
-        text-transform: uppercase; }
-      #hero .newsletter-container form input[type="submit"] {
-        background: #a9cf38;
-        color: #003952;
-        font-family: Poppins;
-        font-weights: 700;
-        text-transform: uppercase;
-        margin-top: 10px; }
+    margin-top: 10px;
+    padding: 10px 0px; }
 
 /*
 * Hide only visually, but have it available for screen readers:
