@@ -1,0 +1,23 @@
+@mixin green-button {
+    background: $lime-green;
+    padding: 5px 10px;
+}
+@mixin button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    a:link,
+    a:visited {
+      color: $dark-blue;
+      font-family: $heading-font;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+}
+@mixin body-green-button {
+    background: $lime-green;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
