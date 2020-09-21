@@ -273,6 +273,38 @@ h2, h4 {
         background: center no-repeat url("../img/stat_3.png");
         background-size: cover; }
 
+/* Involvment Call to Action */
+#involvement-cta {
+  background: #003952; }
+  #involvement-cta h1 {
+    color: #fff;
+    padding: 20px 0px; }
+    #involvement-cta h1 span {
+      color: #a9cf38; }
+  #involvement-cta .involvement-cta-content {
+    background: #00b5c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    #involvement-cta .involvement-cta-content .content-wrapper {
+      padding: 25px 0px; }
+    #involvement-cta .involvement-cta-content article img {
+      width: 150px;
+      height: 150px;
+      padding: 20px 0px; }
+    #involvement-cta .involvement-cta-content article h3 {
+      color: #fff;
+      font-size: 1.95rem;
+      font-weight: 600;
+      line-height: 1.75rem; }
+      #involvement-cta .involvement-cta-content article h3 span {
+        display: block; }
+    #involvement-cta .involvement-cta-content article p {
+      color: #003952;
+      font-size: 1.25rem; }
+
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

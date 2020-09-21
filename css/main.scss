@@ -113,11 +113,11 @@ textarea {
 @import "mixins";
 /* Universal Styles */ 
 body {
-  font-family: Lato;
+  font-family: $body-font;
   font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: Poppins;
+  font-family: $heading-font;
   text-transform: uppercase;
   margin: 0;
   text-align: center;
@@ -285,6 +285,42 @@ h2, h4 {
       &:nth-of-type(3) {
         background: center no-repeat url('../img/stat_3.png');
         background-size: cover;
+      }
+    }
+  }
+}
+/* Involvment Call to Action */ 
+#involvement-cta {
+  @include section-header;
+  background: $dark-blue;
+  .involvement-cta-content {
+    background: $light-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .content-wrapper {
+      padding: 25px 0px;
+    }
+    article {
+      img {
+        width: 150px;
+        height: 150px;
+        padding: 20px 0px;
+      }
+      h3 {
+        color: #fff;
+        font-size: 1.95rem;
+        font-weight: 600;
+        line-height: 1.75rem;
+        span {
+          display: block;
+        }
+      }
+      p {
+        color: $dark-blue;
+        font-size: 1.25rem;
       }
     }
   }
