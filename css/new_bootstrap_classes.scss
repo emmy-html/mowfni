@@ -287,6 +287,7 @@ nav.fixed-top {
 .navbar-light .navbar-nav .nav-link:focus {
   color: $lime-green;
   text-decoration: none;
+  transition: $color-transition;
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
@@ -521,7 +522,7 @@ nav.fixed-top {
 .dropdown-item:focus {
   color: $lime-green;
   text-decoration: none;
-  background-color: $dark-blue;
+  transition: $color-transition;
 }
 
 .dropdown-item.active,
