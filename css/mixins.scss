@@ -20,9 +20,26 @@
     background: $lime-green;
     border-radius: 5px;
     padding: 5px 15px;
+    &:hover {
+        background: $light-blue;
+        transition: $bg-transition;
+    }
 }
 @mixin body-blue-button {
     background: $light-blue;
     border-radius: 5px;
     padding: 5px 15px;
+    &:hover {
+        background: $lime-green;
+        transition: $bg-transition;
+    }
+}
+@mixin section-header {
+    h1 {
+        color: #fff;
+        padding: 20px 0px;
+        span {
+          color: $lime-green;
+        }
+      }
 }

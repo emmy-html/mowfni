@@ -133,11 +133,15 @@ h2, h4 {
 }
 /* Hero section */ 
 #hero {
+  background: center no-repeat url('../img/hero.png');
+  background-size: cover;
+  margin-top: 90px;
   .content-wrapper {
-    margin-top: 300px;
+    padding-top: 200px;
   }
   h1 {
-    padding-top: 50px;
+    color: #fff;
+    margin-top: 100px;
     font-size: 1.44rem;
     line-height: 1.25rem;
     text-align: center;
@@ -152,16 +156,20 @@ h2, h4 {
     max-width: 140px;
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 20px;
   }
+}
+/* Newsletter */ 
+#newsletter {
   .newsletter-container {
     background: $dark-blue;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-top: 25px;
     padding: 25px 0px;
     .content-wrapper {
       margin-top: 0px;
+      padding-top: 0px;
     }
     h2, h3 {
       line-height: 1.30rem;
@@ -188,6 +196,10 @@ h2, h4 {
       input[type="email"] {
         color: lightgray;
         text-transform: uppercase;
+        border: 1px solid white;
+        &:hover {
+          border: 1px solid $light-blue;
+        }
       }
       input[type="submit"] {
         background: $lime-green;
@@ -196,6 +208,11 @@ h2, h4 {
         font-weight: 700;
         text-transform: uppercase;
         margin-top: 10px;
+        &:hover {
+          background: $light-blue;
+          cursor: pointer;
+          transition: $bg-transition;
+        }
       }
     }
   }
@@ -227,6 +244,22 @@ h2, h4 {
     @include body-green-button;
     margin-top: 10px;
     padding: 10px 0px;
+  }
+}
+/* Our Impact */ 
+#our-impact {
+  background: $dark-blue;
+  @include section-header;
+  .impact-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 200px;
+    }
   }
 }
 /*

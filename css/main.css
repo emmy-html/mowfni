@@ -126,61 +126,79 @@ h2, h4 {
     text-transform: uppercase; }
 
 /* Hero section */
-#hero .content-wrapper {
-  margin-top: 300px; }
-#hero h1 {
-  padding-top: 50px;
-  font-size: 1.44rem;
-  line-height: 1.25rem;
-  text-align: center; }
-  #hero h1 span {
-    display: block;
-    font-size: 1.02rem; }
-#hero .rounded-green-button {
-  background: #a9cf38;
-  border-radius: 5px;
-  padding: 5px 15px;
-  min-width: 135px;
-  max-width: 140px;
-  margin: 0 auto;
-  margin-top: 10px; }
-#hero .newsletter-container {
+#hero {
+  background: center no-repeat url("../img/hero.png");
+  background-size: cover;
+  margin-top: 90px; }
+  #hero .content-wrapper {
+    padding-top: 200px; }
+  #hero h1 {
+    color: #fff;
+    margin-top: 100px;
+    font-size: 1.44rem;
+    line-height: 1.25rem;
+    text-align: center; }
+    #hero h1 span {
+      display: block;
+      font-size: 1.02rem; }
+  #hero .rounded-green-button {
+    background: #a9cf38;
+    border-radius: 5px;
+    padding: 5px 15px;
+    min-width: 135px;
+    max-width: 140px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px; }
+    #hero .rounded-green-button:hover {
+      background: #00b5c2;
+      transition: 1s background; }
+
+/* Newsletter */
+#newsletter .newsletter-container {
   background: #003952;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-top: 25px;
   padding: 25px 0px; }
-  #hero .newsletter-container .content-wrapper {
-    margin-top: 0px; }
-  #hero .newsletter-container h2, #hero .newsletter-container h3 {
+  #newsletter .newsletter-container .content-wrapper {
+    margin-top: 0px;
+    padding-top: 0px; }
+  #newsletter .newsletter-container h2, #newsletter .newsletter-container h3 {
     line-height: 1.30rem;
     margin: 0;
     text-align: left; }
-  #hero .newsletter-container h2 {
+  #newsletter .newsletter-container h2 {
     color: #a9cf38;
     font-size: 1rem; }
-  #hero .newsletter-container h3 {
+  #newsletter .newsletter-container h3 {
     color: #fff;
     font-size: 1.95rem; }
-  #hero .newsletter-container form {
+  #newsletter .newsletter-container form {
     display: flex;
     flex-direction: column;
     padding: 20px 0px; }
-    #hero .newsletter-container form input {
+    #newsletter .newsletter-container form input {
       border: none;
       border-radius: 10px;
       padding: 10px 5px; }
-    #hero .newsletter-container form input[type="email"] {
+    #newsletter .newsletter-container form input[type="email"] {
       color: lightgray;
-      text-transform: uppercase; }
-    #hero .newsletter-container form input[type="submit"] {
+      text-transform: uppercase;
+      border: 1px solid white; }
+      #newsletter .newsletter-container form input[type="email"]:hover {
+        border: 1px solid #00b5c2; }
+    #newsletter .newsletter-container form input[type="submit"] {
       background: #a9cf38;
       color: #003952;
       font-family: Poppins;
       font-weight: 700;
       text-transform: uppercase;
       margin-top: 10px; }
+      #newsletter .newsletter-container form input[type="submit"]:hover {
+        background: #00b5c2;
+        cursor: pointer;
+        transition: 1s background; }
 
 /* COVID CTA */
 #cta {
@@ -202,12 +220,36 @@ h2, h4 {
     border-radius: 5px;
     padding: 5px 15px;
     padding: 10px 0px; }
+    #cta .rounded-blue-button:hover {
+      background: #a9cf38;
+      transition: 1s background; }
   #cta .rounded-green-button {
     background: #a9cf38;
     border-radius: 5px;
     padding: 5px 15px;
     margin-top: 10px;
     padding: 10px 0px; }
+    #cta .rounded-green-button:hover {
+      background: #00b5c2;
+      transition: 1s background; }
+
+/* Our Impact */
+#our-impact {
+  background: #003952; }
+  #our-impact h1 {
+    color: #fff;
+    padding: 20px 0px; }
+    #our-impact h1 span {
+      color: #a9cf38; }
+  #our-impact .impact-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px; }
+    #our-impact .impact-content article {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 200px; }
 
 /*
 * Hide only visually, but have it available for screen readers:
