@@ -577,3 +577,11 @@ nav.fixed-top {
     }
   }
 }
+@media screen and (max-width: 992px) {
+  .nav-item.blue-nav-button {
+    margin-bottom: 10px;
+  }
+  .nav-item.green-nav-button {
+    margin-bottom: 10px;
+  }
+}

@@ -111,8 +111,10 @@
     <section id="newsletter">
       <div class="newsletter-container">
         <div class="content-wrapper">
-          <h2>Our Newsletter</h2>
-          <h3>Keep Up With Us</h3>
+          <aside>
+            <h2>Our Newsletter</h2>
+            <h3>Keep Up With Us</h3>
+          </aside>
           <form>
             <input type="email" value="Name@email.com"></input>
             <input type="submit" value="Submit"></input>
@@ -187,42 +189,53 @@
     </section>
     <section id="events">
       <div class="content-wrapper">
-        <h1>Current Events</h1>
+        <h1>Current 
+          <span>Events</span>
+        </h1>
+      </div>
+        <div class="events-content-container">
           <article>
-            <i class="fas fa-calendar-alt"></i>
+            <i class="fas fa-calendar-alt fa-6x"></i>
             <h4>
               Event name
-              <span>Location @ Time</span>
+              <span>Time @ Location</span>
             </h4>
           </article>
           <article>
-            <i class="fas fa-calendar-alt"></i>
+            <i class="fas fa-calendar-alt fa-6x"></i>
             <h4>
               Event name
-              <span>Location @ Time</span>
+              <span>Time @ Location</span>
             </h4>
           </article>
           <article>
-            <i class="fas fa-calendar-alt"></i>
+            <i class="fas fa-calendar-alt fa-6x"></i>
             <h4>
               Event name
-              <span>Location @ Time</span>
+              <span>Time @ Location</span>
             </h4>
           </article>
           <article>
-            <i class="fas fa-calendar-alt"></i>
+            <i class="fas fa-calendar-alt fa-6x"></i>
             <h4>
               Event name
-              <span>Location @ Time</span>
+              <span>Time @ Location</span>
             </h4>
           </article>
-          <a href="#" target="_blank">Upcoming & Past Events &#8250;</a>
+          </div>
+          <div class="content-wrapper">
+            <div class="button-container">
+              <a href="#" target="_blank" class="rounded-green-button">Upcoming & Past Events &#8250;</a>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <footer>
+      <div class="content-wrapper">
       <article>
-        <h5>Meals On Wheels Foundation of Northern Illinois</h5>
+        <h5>Meals On Wheels Foundation
+          <span>of Northern Illinois</span></h5>
       </article>
       <article>
         <h6>Address</h6>
@@ -233,17 +246,17 @@
         <h6>Fax</h6>
           <p>1(312) 441-0641</p>
         <h6>Find Us Here</h6>
-          <p>
-            <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-linkedin"></i>
+          <p class="social-media">
+            <a href="#" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
           </p>
         </article>
-        <article>
+        <article class="navigation">
           <h6>Navigation</h6>
           <p>
-            <b><a href="#" target="_blank">Home</a></b>
+            <b><a href="#" target="_blank">Home</a></b><br><br>
           </p>
           <p>
             <b><a href="#" target="_blank">About</a></b>
@@ -254,14 +267,14 @@
             <a href="#" target="_blank">990’s</a><br>
             <a href="#" target="_blank">Resources</a><br>
             <a href="#" target="_blank">Donate</a><br>
-            <a href="#" target="_blank">Other Ways to Give</a>
+            <a href="#" target="_blank">Other Ways to Give</a><br><br>
           </p>
           <p>
             <b><a href="#" target="_blank">Events</a></b>
           </p>
           <p>
             <a href="#" target="_blank">Current Events</a><br>
-            <a href="#" target="_blank">Past Events</a>
+            <a href="#" target="_blank">Past Events</a><br><br>
           </p>
           <p>
             <b><a href="#" target="_blank">Café Locations</a></b>
@@ -271,7 +284,7 @@
             <a href="#" target="_blank">Brookfield</a>
           </p>
         </article>
-        <article>
+        <article class="navigation">
           <p>
             <a href="#" target="_blank">Dolton</a><br>
             <a href="#" target="_blank">Franklin Park</a><br>
@@ -281,7 +294,7 @@
             <a href="#" target="_blank">Phoenix</a><br>
             <a href="#" target="_blank">Proviso</a><br>
             <a href="#" target="_blank">Schaumburg</a><br>
-            <a href="#" target="_blank"> South Chicago Heights</a>
+            <a href="#" target="_blank"> South Chicago Heights</a><br><br>
           </p>
           <p>
             <b><a href="#" target="_blank">Meals On Wheels</a></b>
@@ -295,20 +308,26 @@
             <a href="#" target="_blank">Worth Township</a>
           </p>
         </article>
-        <article>
+        <article class="navigation">
           <p>
             <a href="#" target="_blank">Kendall County</a><br>
             <a href="#" target="_blank">Lemont Township</a><br>
             <a href="#" target="_blank">Calumet Township</a><br>
             <a href="#" target="_blank">North Proviso Township</a><br>
             <a href="#" target="_blank">Bloom Township</a>
-          </p>
+          </p><br>
           <p>
             <b><a href="#" target="_blank">Volunteer</a></b><br>
             <b><a href="#" target="_blank">Donate</a></b>
           </p>
         </article>
-MOW Logo
+        <article>
+          <div class="content-wrapper">
+            <img src="img/MOW_america_member.png" alt="Meals On Wheels America Member 2020" />
+          </div>
+        </article>
+      </div>
+    </footer>
 
   <script src="js/main.js"></script>
   <script src="js/plugins.js"></script>

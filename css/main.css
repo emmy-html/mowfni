@@ -303,8 +303,133 @@ h2, h4 {
         display: block; }
     #involvement-cta .involvement-cta-content article p {
       color: #003952;
-      font-size: 1.25rem; }
+      font-size: 1.25rem;
+      line-height: 1.35rem; }
 
+/* Events Section */
+#events {
+  background: #003952; }
+  #events h1 {
+    color: #fff;
+    padding: 20px 0px; }
+    #events h1 span {
+      color: #a9cf38; }
+  #events .events-content-container {
+    color: #003952;
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
+  #events article {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: center; }
+    #events article:nth-of-type(odd) {
+      background: #a9cf38; }
+    #events article:nth-of-type(even) {
+      background: #00b5c2; }
+    #events article i {
+      padding-bottom: 25px; }
+    #events article h4 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 1.5rem; }
+      #events article h4 span {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 400; }
+  #events .button-container {
+    padding: 25px 0px; }
+  #events .rounded-green-button {
+    background: #a9cf38;
+    border-radius: 5px;
+    padding: 5px 15px; }
+    #events .rounded-green-button:hover {
+      background: #00b5c2;
+      transition: 1s background; }
+
+/* Footer */
+footer {
+  background: #003952;
+  color: #fff; }
+  footer .content-wrapper {
+    padding: 25px 0px; }
+  footer h5 {
+    color: #a9cf38;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: left;
+    padding: 10px 0px; }
+    footer h5 span {
+      display: block; }
+  footer h6 {
+    font-size: 1.6rem;
+    font-weight: 300;
+    text-align: left; }
+  footer p {
+    font-size: .90rem;
+    margin: 8px 0px; }
+  footer i {
+    margin-right: 10px; }
+  footer .social-media {
+    text-decoration: none; }
+    footer .social-media a:link,
+    footer .social-media a:visited {
+      color: #00b5c2; }
+    footer .social-media a:hover {
+      color: #a9cf38;
+      transition: 1s color; }
+  footer .navigation {
+    line-height: 1rem; }
+    footer .navigation h6 {
+      padding: 10px 0px; }
+    footer .navigation p {
+      margin: 0px; }
+    footer .navigation a:link,
+    footer .navigation a:visited {
+      color: #fff;
+      font-size: .75rem;
+      text-decoration: none; }
+  footer img {
+    display: flex;
+    margin: auto;
+    width: 200px; }
+
+/* Large Tablets & Desktop Styles */
+@media screen and (min-width: 992px) {
+  /* Hero Section */
+  #hero {
+    background: center no-repeat url("../img/hero.png");
+    background-size: 100%;
+    margin-top: 120px;
+    height: 450px; }
+    #hero .content-wrapper {
+      padding-top: 150px; }
+    #hero h1 {
+      font-size: 3.44rem;
+      line-height: 3.25rem; }
+      #hero h1 span {
+        font-size: 3.79rem; }
+    #hero .rounded-green-button {
+      font-size: 1.5rem;
+      min-width: 190px;
+      max-width: 200px;
+      padding: 10px 30px; }
+
+  /* Newsletter */
+  #newsletter .content-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline; }
+    #newsletter .content-wrapper form {
+      width: 60%; }
+  #newsletter .newsletter-container h2, #newsletter .newsletter-container h3 {
+    line-height: 2.4rem; }
+  #newsletter .newsletter-container h2 {
+    font-size: 1.85rem; }
+  #newsletter .newsletter-container h3 {
+    font-size: 2.85rem; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
