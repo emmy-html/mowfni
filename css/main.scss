@@ -295,10 +295,6 @@ h2, h4 {
   background: $dark-blue;
   .involvement-cta-content {
     background: $light-blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     .content-wrapper {
       padding: 25px 0px;
@@ -343,9 +339,19 @@ h2, h4 {
     justify-content: center;
     &:nth-of-type(odd) {
       background: $lime-green;
+      &:hover {
+        cursor: pointer;
+        background: $light-blue;
+        transition: $bg-transition;
+      }
     }
     &:nth-of-type(even) {
       background: $light-blue;
+      &:hover {
+        cursor: pointer;
+        background: $lime-green;
+        transition: $bg-transition;
+      }
     }
     i {
       padding-bottom: 25px;
@@ -421,6 +427,10 @@ footer {
       color: #fff;
       font-size: .75rem;
       text-decoration: none;
+    }
+    a:hover {
+      color: $lime-green;
+      transition: $color-transition;
     }
   }
   img {
@@ -518,6 +528,78 @@ footer {
       flex-flow: row nowrap;
       article {
         width: 33.3%;
+      }
+    }
+  }
+  /* Involvment Call to Action */ 
+  #involvement-cta {
+    .involvement-cta-content {
+      .content-wrapper {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      article {
+        min-width: 400px;
+        max-width: 420px;
+      }
+    }
+  }
+  /* Curret Events */ 
+  #events {
+    .events-content-container {
+      display: flex;
+      flex-flow: row wrap;
+      article {
+        width: 50%;
+        height: 300px;
+        &:nth-of-type(3) {
+          background: $light-blue;
+          &:hover {
+            background: $lime-green;
+            transition: $bg-transition;
+          }
+        }
+        &:nth-of-type(4) {
+          background: $lime-green;
+          &:hover {
+            background: $light-blue;
+            transition: $bg-transition;
+          }
+        }
+      }
+    }
+    .button-container {
+      .rounded-green-button {
+        font-size: 1.75rem;
+        margin: auto;
+        width: 50%;
+      }
+      padding-bottom: 50px;
+    }
+  }
+  /* Footer */ 
+  footer {
+    .text-logo {
+      margin: 0px 20px;
+    }
+    .content-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    p {
+      font-size: 1rem;
+    }
+    article.image-footer-logo {
+      padding-top: 100px;
+    }
+    .navigation {
+      a:link,
+      a:visited {
+        font-size: 1rem;
+        line-height: 1.20rem;
       }
     }
   }

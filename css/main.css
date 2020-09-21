@@ -283,10 +283,6 @@ h2, h4 {
       color: #a9cf38; }
   #involvement-cta .involvement-cta-content {
     background: #00b5c2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center; }
     #involvement-cta .involvement-cta-content .content-wrapper {
       padding: 25px 0px; }
@@ -326,8 +322,16 @@ h2, h4 {
     justify-content: center; }
     #events article:nth-of-type(odd) {
       background: #a9cf38; }
+      #events article:nth-of-type(odd):hover {
+        cursor: pointer;
+        background: #00b5c2;
+        transition: 1s background; }
     #events article:nth-of-type(even) {
       background: #00b5c2; }
+      #events article:nth-of-type(even):hover {
+        cursor: pointer;
+        background: #a9cf38;
+        transition: 1s background; }
     #events article i {
       padding-bottom: 25px; }
     #events article h4 {
@@ -390,6 +394,9 @@ footer {
       color: #fff;
       font-size: .75rem;
       text-decoration: none; }
+    footer .navigation a:hover {
+      color: #a9cf38;
+      transition: 1s color; }
   footer img {
     display: flex;
     margin: auto;
@@ -464,7 +471,57 @@ footer {
     display: flex;
     flex-flow: row nowrap; }
     #our-impact .impact-content article {
-      width: 33.3%; } }
+      width: 33.3%; }
+
+  /* Involvment Call to Action */
+  #involvement-cta .involvement-cta-content .content-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center; }
+  #involvement-cta .involvement-cta-content article {
+    min-width: 400px;
+    max-width: 420px; }
+
+  /* Curret Events */
+  #events .events-content-container {
+    display: flex;
+    flex-flow: row wrap; }
+    #events .events-content-container article {
+      width: 50%;
+      height: 300px; }
+      #events .events-content-container article:nth-of-type(3) {
+        background: #00b5c2; }
+        #events .events-content-container article:nth-of-type(3):hover {
+          background: #a9cf38;
+          transition: 1s background; }
+      #events .events-content-container article:nth-of-type(4) {
+        background: #a9cf38; }
+        #events .events-content-container article:nth-of-type(4):hover {
+          background: #00b5c2;
+          transition: 1s background; }
+  #events .button-container {
+    padding-bottom: 50px; }
+    #events .button-container .rounded-green-button {
+      font-size: 1.75rem;
+      margin: auto;
+      width: 50%; }
+
+  /* Footer */
+  footer .text-logo {
+    margin: 0px 20px; }
+  footer .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  footer p {
+    font-size: 1rem; }
+  footer article.image-footer-logo {
+    padding-top: 100px; }
+  footer .navigation a:link,
+  footer .navigation a:visited {
+    font-size: 1rem;
+    line-height: 1.20rem; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
