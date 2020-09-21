@@ -431,6 +431,10 @@ footer {
 }
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
+  /* Universal Styles */ 
+  body {
+    font-size: 18px;
+  }
   /* Hero Section */ 
   #hero {
     background: center no-repeat url('../img/hero.png');
@@ -475,6 +479,36 @@ footer {
       h3 {
         font-size: 2.85rem;
       }     
+    }
+  }
+  /* COVID CTA */ 
+  #cta {
+    h1 {
+      font-size: 4rem;
+    }
+    p {
+      font-size: 1.89rem;
+      line-height: 1.85rem;
+      width: 650px;
+      margin: auto;
+      padding: 25px 0px;
+    }
+    .options-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 650px;
+      margin: auto;
+      padding-bottom: 25px;
+    }
+    .rounded-blue-button {
+      font-size: 2rem;
+      padding: 10px 60px;
+    }
+    .rounded-green-button {
+      font-size: 2rem;
+      margin-top: 0px;
+      padding: 10px 60px;
     }
   }
 }

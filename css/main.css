@@ -397,6 +397,10 @@ footer {
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
+  /* Universal Styles */
+  body {
+    font-size: 18px; }
+
   /* Hero Section */
   #hero {
     background: center no-repeat url("../img/hero.png");
@@ -429,7 +433,31 @@ footer {
   #newsletter .newsletter-container h2 {
     font-size: 1.85rem; }
   #newsletter .newsletter-container h3 {
-    font-size: 2.85rem; } }
+    font-size: 2.85rem; }
+
+  /* COVID CTA */
+  #cta h1 {
+    font-size: 4rem; }
+  #cta p {
+    font-size: 1.89rem;
+    line-height: 1.85rem;
+    width: 650px;
+    margin: auto;
+    padding: 25px 0px; }
+  #cta .options-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 650px;
+    margin: auto;
+    padding-bottom: 25px; }
+  #cta .rounded-blue-button {
+    font-size: 2rem;
+    padding: 10px 60px; }
+  #cta .rounded-green-button {
+    font-size: 2rem;
+    margin-top: 0px;
+    padding: 10px 60px; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
