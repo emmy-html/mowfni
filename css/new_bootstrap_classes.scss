@@ -42,7 +42,7 @@ nav.fixed-top {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0rem 1rem;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -168,8 +168,8 @@ nav.fixed-top {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid,
@@ -185,6 +185,7 @@ nav.fixed-top {
     display: flex !important;
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
+    margin-bottom: 15px;
   }
   .navbar-expand-lg .navbar-toggler {
     display: none;
@@ -280,6 +281,7 @@ nav.fixed-top {
 
 .navbar-light .navbar-nav .nav-link {
   color: #fff;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -507,6 +509,7 @@ nav.fixed-top {
 }
 .dropdown-item {
   display: block;
+  font-size: 1rem !important;
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;

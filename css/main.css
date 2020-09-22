@@ -97,11 +97,11 @@ textarea {
 /* Transitions */
 /* Universal Styles */
 body {
-  font-family: Lato;
+  font-family: "Lato", sans-serif;
   font-size: 16px; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   margin: 0;
   text-align: center; }
@@ -120,7 +120,7 @@ h2, h4 {
   .button-container a:link,
   .button-container a:visited {
     color: #003952;
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase; }
@@ -191,7 +191,7 @@ h2, h4 {
     #newsletter .newsletter-container form input[type="submit"] {
       background: #a9cf38;
       color: #003952;
-      font-family: Poppins;
+      font-family: "Poppins", sans-serif;
       font-weight: 700;
       text-transform: uppercase;
       margin-top: 10px; }
@@ -412,7 +412,7 @@ footer {
   #hero {
     background: center no-repeat url("../img/hero.png");
     background-size: 100%;
-    margin-top: 120px;
+    margin-top: 100px;
     padding-top: 50px; }
     #hero .content-wrapper {
       padding-top: 125px; }
