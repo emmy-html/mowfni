@@ -54,3 +54,19 @@
         }
       }
 }
+@mixin statistic-format {
+        h2 {
+          color: $dark-blue;
+          font-size: 2rem;
+          line-height: 2rem;
+          font-weight: 700;
+          span {
+            display: block;
+            font-weight: 600;
+            font-size: 1.35rem;
+            line-height: 1.45rem;
+            text-transform: none;
+            padding-top: 25px;
+          }
+        }
+}

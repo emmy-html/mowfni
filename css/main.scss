@@ -117,6 +117,7 @@ body {
   color: #fff;
   font-family: $body-font;
   font-size: 16px;
+  line-height: 1.35rem;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
@@ -384,7 +385,7 @@ footer {
     padding: 25px 0px;
   }
   .text-logo {
-    margin: 0px 20px;
+    margin: 20px 20px;
   }
   h5 {
     color: $lime-green;
@@ -448,12 +449,84 @@ footer {
 #about-page-hero {
   @include page-header;
   padding-top: 75px;
+  h1 {
+    max-width: 450px;
+    margin: 0 auto;
+  }
+  .about-page-hero-content {
+    @include statistic-format;
+    display: flex;  
+    flex-flow: column wrap;
+    img {
+      width: 100%;
+    }
+    article {
+      background: $light-blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      width: 100%;
+      h2 {
+        min-width: 280px;
+        max-width: 490px;
+      }
+      &:nth-of-type(1) {
+        height: auto;
+      }
+      &:nth-of-type(2) {
+        background: center no-repeat url('../img/heavy-filter-02.png');
+        background-size: cover;
+      }
+      &:nth-of-type(3) {
+        background: center no-repeat url('../img/heavy-filler-01.png');
+        background-size: cover;
+      }
+    }
+  }
+}
+/* About Page > About Us > Our History Section */ 
+#about-page-our-history {
+  @include page-header;
+  article {
+    background: #fff;
+    color: $dark-blue;
+    padding: 15px 0px;
+  }
+  .about-page-cta {
+    display: flex;
+    flex-flow: column wrap;
+    article {
+      background: $light-blue;
+      height: 300px;
+      .content-wrapper {
+        img {
+          width: 150px;
+          height: 150px;
+          margin: 0 auto;
+          padding: 25px 0px;
+        }
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        h3 {
+          font-size: 1.5rem;
+          line-height: 1.5rem;
+        }
+      }
+      &:nth-of-type(2) {
+        background: $lime-green;
+      }
+    }
+  }
 }
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 
   body {
     font-size: 18px;
+    line-height: 1.5rem;
   }
   /* Hero Section */ 
   #hero {

@@ -100,7 +100,8 @@ body {
   background: #003952;
   color: #fff;
   font-family: "Lato", sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  line-height: 1.35rem; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
@@ -361,7 +362,7 @@ footer {
   footer .content-wrapper {
     padding: 25px 0px; }
   footer .text-logo {
-    margin: 0px 20px; }
+    margin: 20px 20px; }
   footer h5 {
     color: #a9cf38;
     font-size: 1rem;
@@ -416,12 +417,85 @@ footer {
     padding: 20px 0px; }
     #about-page-hero h1 span {
       color: #a9cf38; }
+  #about-page-hero h1 {
+    max-width: 450px;
+    margin: 0 auto; }
+  #about-page-hero .about-page-hero-content {
+    display: flex;
+    flex-flow: column wrap; }
+    #about-page-hero .about-page-hero-content h2 {
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      font-weight: 700; }
+      #about-page-hero .about-page-hero-content h2 span {
+        display: block;
+        font-weight: 600;
+        font-size: 1.35rem;
+        line-height: 1.45rem;
+        text-transform: none;
+        padding-top: 25px; }
+    #about-page-hero .about-page-hero-content img {
+      width: 100%; }
+    #about-page-hero .about-page-hero-content article {
+      background: #00b5c2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 400px;
+      width: 100%; }
+      #about-page-hero .about-page-hero-content article h2 {
+        min-width: 280px;
+        max-width: 490px; }
+      #about-page-hero .about-page-hero-content article:nth-of-type(1) {
+        height: auto; }
+      #about-page-hero .about-page-hero-content article:nth-of-type(2) {
+        background: center no-repeat url("../img/heavy-filter-02.png");
+        background-size: cover; }
+      #about-page-hero .about-page-hero-content article:nth-of-type(3) {
+        background: center no-repeat url("../img/heavy-filler-01.png");
+        background-size: cover; }
+
+/* About Page > About Us > Our History Section */
+#about-page-our-history h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px; }
+  #about-page-our-history h1 span {
+    color: #a9cf38; }
+#about-page-our-history article {
+  background: #fff;
+  color: #003952;
+  padding: 15px 0px; }
+#about-page-our-history .about-page-cta {
+  display: flex;
+  flex-flow: column wrap; }
+  #about-page-our-history .about-page-cta article {
+    background: #00b5c2;
+    height: 300px; }
+    #about-page-our-history .about-page-cta article .content-wrapper {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center; }
+      #about-page-our-history .about-page-cta article .content-wrapper img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        padding: 25px 0px; }
+      #about-page-our-history .about-page-cta article .content-wrapper h3 {
+        font-size: 1.5rem;
+        line-height: 1.5rem; }
+    #about-page-our-history .about-page-cta article:nth-of-type(2) {
+      background: #a9cf38; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */
   body {
-    font-size: 18px; }
+    font-size: 18px;
+    line-height: 1.5rem; }
 
   /* Hero Section */
   #hero {
