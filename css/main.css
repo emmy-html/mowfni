@@ -97,6 +97,8 @@ textarea {
 /* Transitions */
 /* Universal Styles */
 body {
+  background: #003952;
+  color: #fff;
   font-family: "Lato", sans-serif;
   font-size: 16px; }
 
@@ -358,6 +360,8 @@ footer {
   color: #fff; }
   footer .content-wrapper {
     padding: 25px 0px; }
+  footer .text-logo {
+    margin: 0px 20px; }
   footer h5 {
     color: #a9cf38;
     font-size: 1rem;
@@ -401,6 +405,17 @@ footer {
     display: flex;
     margin: auto;
     width: 200px; }
+
+/* About Page > About MOWFNI */
+#about-page-hero {
+  padding-top: 75px; }
+  #about-page-hero h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px; }
+    #about-page-hero h1 span {
+      color: #a9cf38; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {

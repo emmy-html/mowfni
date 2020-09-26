@@ -43,3 +43,14 @@
         }
       }
 }
+@mixin page-header {
+    h1 {
+        color: #fff;
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        padding: 20px 0px;
+        span {
+          color: $lime-green;
+        }
+      }
+}

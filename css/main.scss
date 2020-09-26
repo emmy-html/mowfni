@@ -113,6 +113,8 @@ textarea {
 @import "mixins";
 /* Universal Styles */ 
 body {
+  background: $dark-blue;
+  color: #fff;
   font-family: $body-font;
   font-size: 16px;
 }
@@ -381,6 +383,9 @@ footer {
   .content-wrapper {
     padding: 25px 0px;
   }
+  .text-logo {
+    margin: 0px 20px;
+  }
   h5 {
     color: $lime-green;
     font-size: 1rem;
@@ -438,6 +443,11 @@ footer {
     margin: auto;
     width: 200px;
   }
+}
+/* About Page > About MOWFNI */ 
+#about-page-hero {
+  @include page-header;
+  padding-top: 75px;
 }
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
