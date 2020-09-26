@@ -129,7 +129,7 @@ h2, h4 {
 #hero {
   background: center no-repeat url("../img/hero.png");
   background-size: cover;
-  margin-top: 90px; }
+  margin-top: 65px; }
   #hero .content-wrapper {
     padding-top: 200px; }
   #hero h1 {
@@ -412,7 +412,7 @@ footer {
   #hero {
     background: center no-repeat url("../img/hero.png");
     background-size: 100%;
-    margin-top: 100px;
+    margin-top: 75px;
     padding-top: 50px; }
     #hero .content-wrapper {
       padding-top: 125px; }
@@ -472,6 +472,8 @@ footer {
     flex-flow: row nowrap; }
     #our-impact .impact-content article {
       width: 33.3%; }
+      #our-impact .impact-content article h2 span {
+        display: block; }
 
   /* Involvment Call to Action */
   #involvement-cta .involvement-cta-content .content-wrapper {

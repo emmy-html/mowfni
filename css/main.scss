@@ -135,7 +135,7 @@ h2, h4 {
 #hero {
   background: center no-repeat url('../img/hero.png');
   background-size: cover;
-  margin-top: 90px;
+  margin-top: 65px;
   .content-wrapper {
     padding-top: 200px;
   }
@@ -449,7 +449,7 @@ footer {
   #hero {
     background: center no-repeat url('../img/hero.png');
     background-size: 100%;
-    margin-top: 100px;
+    margin-top: 75px;
     padding-top: 50px;
     .content-wrapper {
       padding-top: 125px;
@@ -528,6 +528,11 @@ footer {
       flex-flow: row nowrap;
       article {
         width: 33.3%;
+        h2 {
+          span {
+            display: block;
+          }
+        }
       }
     }
   }
