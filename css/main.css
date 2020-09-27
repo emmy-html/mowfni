@@ -665,7 +665,7 @@ footer {
     #other-ways-page h1 span {
       color: #a9cf38; }
   #other-ways-page .other-ways-span {
-    background: center no-repeat url("../img/stat_1.png");
+    background: center no-repeat url("../img/filler-square-03.png");
     background-size: cover;
     width: 100%;
     height: 300px; }
@@ -674,7 +674,8 @@ footer {
   #other-ways-page article.other-ways-desc {
     background: #fff;
     color: #003952;
-    padding: 20px 0px; }
+    padding: 20px 0px;
+    text-align: justify; }
   #other-ways-page .other-ways-content {
     background: #00b5c2;
     color: #003952;
@@ -689,8 +690,17 @@ footer {
     #other-ways-page .other-ways-content article {
       padding: 20px 0px; }
       #other-ways-page .other-ways-content article i {
-        display: block;
-        text-align: center; }
+        background: #003952;
+        border-radius: 100px;
+        color: #a9cf38;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto; }
+      #other-ways-page .other-ways-content article p {
+        text-align: justify; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
@@ -698,6 +708,15 @@ footer {
   body {
     font-size: 18px;
     line-height: 1.5rem; }
+
+  main a:link,
+  main a:visited {
+    color: #003952;
+    text-decoration: none;
+    font-weight: 600; }
+    main a:link:hover,
+    main a:visited:hover {
+      border-bottom: 2px solid; }
 
   /* Hero Section */
   #hero {
@@ -882,7 +901,7 @@ footer {
   #other-ways-page .other-ways-content {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start; }
     #other-ways-page .other-ways-content article {
       width: 30%;

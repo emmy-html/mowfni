@@ -668,7 +668,7 @@ footer {
   @include page-header;
   padding-top: 75px;
   .other-ways-span {
-    background: center no-repeat url('../img/stat_1.png');
+    background: center no-repeat url('../img/filler-square-03.png');
     background-size: cover;
     width: 100%;
     height: 300px;
@@ -682,6 +682,7 @@ footer {
     background: #fff;
     color: $dark-blue;
     padding: 20px 0px;
+    text-align: justify;
   }
   .other-ways-content {
     background: $light-blue;
@@ -697,11 +698,21 @@ footer {
       }
     }
     article {
-      i {
-        display: block;
-        text-align: center;
-      }
       padding: 20px 0px;
+      i {
+        background: $dark-blue;
+        border-radius: 100px;
+        color: $lime-green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+      }
+      p {
+        text-align: justify;
+      }
     }
   }
 }
@@ -711,6 +722,17 @@ footer {
   body {
     font-size: 18px;
     line-height: 1.5rem;
+  }
+  main {
+    a:link,
+    a:visited {
+      color: $dark-blue;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover {
+        border-bottom: 2px solid;
+      }
+    }
   }
   /* Hero Section */ 
   #hero {
@@ -969,7 +991,7 @@ footer {
     .other-ways-content {
       display: flex;
       flex-flow: row wrap;
-      justify-content: space-around;
+      justify-content: space-evenly;
       align-items: flex-start;
       article {
         width: 30%;
