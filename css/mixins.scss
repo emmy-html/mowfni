@@ -1,3 +1,6 @@
+@mixin body-content-wrapper {
+    margin: 0px 20px;
+}
 @mixin green-button {
     background: $lime-green;
     padding: 5px 10px;

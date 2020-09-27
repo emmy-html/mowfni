@@ -129,7 +129,7 @@ h2, h4 {
   font-weight: 400;
 }
 .content-wrapper {
-  margin: 0px 20px;
+  @include body-content-wrapper;
 }
 .button-container {
   @include button-container;
@@ -660,6 +660,48 @@ footer {
       font-weight: 400;
       padding: 20px 0px;
       text-transform: none;
+    }
+  }
+}
+/* Other Ways To Give Page */ 
+#other-ways-page {
+  @include page-header;
+  padding-top: 75px;
+  .other-ways-span {
+    background: center no-repeat url('../img/stat_1.png');
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+  }
+  article {
+    p {
+      @include body-content-wrapper;
+    }
+  }
+  article.other-ways-desc {
+    background: #fff;
+    color: $dark-blue;
+    padding: 20px 0px;
+  }
+  .other-ways-content {
+    background: $light-blue;
+    color: $dark-blue;
+    padding: 20px 0px;
+    h3 {
+      @include body-content-wrapper;
+      font-size: 1.75rem;
+      line-height: 1.75rem;
+      padding: 25px 0px;
+      span {
+        display: block;
+      }
+    }
+    article {
+      i {
+        display: block;
+        text-align: center;
+      }
+      padding: 20px 0px;
     }
   }
 }

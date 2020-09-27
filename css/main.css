@@ -652,6 +652,46 @@ footer {
     padding: 20px 0px;
     text-transform: none; }
 
+/* Other Ways To Give Page */
+#other-ways-page {
+  padding-top: 75px; }
+  #other-ways-page h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #other-ways-page h1 span {
+      color: #a9cf38; }
+  #other-ways-page .other-ways-span {
+    background: center no-repeat url("../img/stat_1.png");
+    background-size: cover;
+    width: 100%;
+    height: 300px; }
+  #other-ways-page article p {
+    margin: 0px 20px; }
+  #other-ways-page article.other-ways-desc {
+    background: #fff;
+    color: #003952;
+    padding: 20px 0px; }
+  #other-ways-page .other-ways-content {
+    background: #00b5c2;
+    color: #003952;
+    padding: 20px 0px; }
+    #other-ways-page .other-ways-content h3 {
+      margin: 0px 20px;
+      font-size: 1.75rem;
+      line-height: 1.75rem;
+      padding: 25px 0px; }
+      #other-ways-page .other-ways-content h3 span {
+        display: block; }
+    #other-ways-page .other-ways-content article {
+      padding: 20px 0px; }
+      #other-ways-page .other-ways-content article i {
+        display: block;
+        text-align: center; }
+
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */
