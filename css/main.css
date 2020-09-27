@@ -128,6 +128,15 @@ h2, h4 {
     text-decoration: none;
     text-transform: uppercase; }
 
+main a:link,
+main a:visited {
+  color: #003952;
+  text-decoration: none;
+  font-weight: 600; }
+  main a:link:hover,
+  main a:visited:hover {
+    border-bottom: 2px solid #a9cf38; }
+
 /* Hero section */
 #hero {
   background: center no-repeat url("../img/hero.png");
@@ -652,6 +661,55 @@ footer {
     padding: 20px 0px;
     text-transform: none; }
 
+#donation-page-cta h1 {
+  background: #003952;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto; }
+  #donation-page-cta h1 span {
+    color: #a9cf38; }
+#donation-page-cta .impact-content {
+  display: flex;
+  flex-direction: column; }
+  #donation-page-cta .impact-content article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 360px; }
+    #donation-page-cta .impact-content article h2 {
+      color: #003952;
+      font-size: 5rem;
+      font-weight: 700;
+      line-height: 5rem;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 50px; }
+      #donation-page-cta .impact-content article h2 span {
+        display: block;
+        font-weight: 600;
+        font-size: 1.65rem;
+        line-height: 1.65rem; }
+    #donation-page-cta .impact-content article:nth-of-type(1) {
+      background: center no-repeat url("../img/stat_1.png");
+      background-size: cover; }
+    #donation-page-cta .impact-content article:nth-of-type(2) {
+      background: center no-repeat url("../img/stat_2.png");
+      background-size: cover; }
+    #donation-page-cta .impact-content article:nth-of-type(3) {
+      background: center no-repeat url("../img/stat_3.png");
+      background-size: cover; }
+@media screen and (min-width: 992px) {
+  #donation-page-cta .impact-content {
+    display: flex;
+    flex-flow: row nowrap; }
+    #donation-page-cta .impact-content article {
+      width: 33.3%; }
+      #donation-page-cta .impact-content article h2 span {
+        display: block; } }
+
 /* Other Ways To Give Page */
 #other-ways-page {
   padding-top: 75px; }
@@ -716,21 +774,46 @@ footer {
       #other-ways-page .other-ways-content article p {
         text-align: justify; }
 
+/* Current Events Page */
+#current-events-page {
+  padding-top: 75px; }
+  #current-events-page h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #current-events-page h1 span {
+      color: #a9cf38; }
+  #current-events-page .current-events-page-content {
+    background: #fff;
+    color: #003952;
+    padding: 20px 0px; }
+  #current-events-page .current-events-page-span {
+    background: center no-repeat url("../img/filler-square-04.png");
+    background-size: cover; }
+    #current-events-page .current-events-page-span h1 {
+      background: none;
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px; }
+      #current-events-page .current-events-page-span h1 span {
+        color: #003952;
+        display: block; }
+    @media screen and (min-width: 992px) {
+      #current-events-page .current-events-page-span h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 200px; } }
+
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */
   body {
     font-size: 18px;
     line-height: 1.5rem; }
-
-  main a:link,
-  main a:visited {
-    color: #003952;
-    text-decoration: none;
-    font-weight: 600; }
-    main a:link:hover,
-    main a:visited:hover {
-      border-bottom: 2px solid; }
 
   /* Hero Section */
   #hero {
@@ -919,56 +1002,9 @@ footer {
     align-items: flex-start; }
     #other-ways-page .other-ways-content article {
       width: 30%;
-      padding: 50px 0px; } }
-#donation-page-cta h1 {
-  background: #003952;
-  color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-  padding: 20px 0px;
-  margin: 0 auto; }
-  #donation-page-cta h1 span {
-    color: #a9cf38; }
-#donation-page-cta .impact-content {
-  display: flex;
-  flex-direction: column; }
-  #donation-page-cta .impact-content article {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-    height: 360px; }
-    #donation-page-cta .impact-content article h2 {
-      color: #003952;
-      font-size: 5rem;
-      font-weight: 700;
-      line-height: 5rem;
-      width: 80%;
-      margin: 0 auto;
-      padding-bottom: 50px; }
-      #donation-page-cta .impact-content article h2 span {
-        display: block;
-        font-weight: 600;
-        font-size: 1.65rem;
-        line-height: 1.65rem; }
-    #donation-page-cta .impact-content article:nth-of-type(1) {
-      background: center no-repeat url("../img/stat_1.png");
-      background-size: cover; }
-    #donation-page-cta .impact-content article:nth-of-type(2) {
-      background: center no-repeat url("../img/stat_2.png");
-      background-size: cover; }
-    #donation-page-cta .impact-content article:nth-of-type(3) {
-      background: center no-repeat url("../img/stat_3.png");
-      background-size: cover; }
-@media screen and (min-width: 992px) {
-  #donation-page-cta .impact-content {
-    display: flex;
-    flex-flow: row nowrap; }
-    #donation-page-cta .impact-content article {
-      width: 33.3%; }
-      #donation-page-cta .impact-content article h2 span {
-        display: block; } }
+      padding: 50px 0px; }
 
+  /* Current Events Page */ }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

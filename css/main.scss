@@ -134,6 +134,17 @@ h2, h4 {
 .button-container {
   @include button-container;
 }
+main {
+  a:link,
+  a:visited {
+    color: $dark-blue;
+    text-decoration: none;
+    font-weight: 600;
+    &:hover {
+      border-bottom: 2px solid $lime-green;
+    }
+  }
+}
 /* Hero section */ 
 #hero {
   background: center no-repeat url('../img/hero.png');
@@ -663,6 +674,10 @@ footer {
     }
   }
 }
+#donation-page-cta {
+  @include page-header;
+  @include cta-stats;
+}
 /* Other Ways To Give Page */ 
 #other-ways-page {
   @include page-header;
@@ -717,23 +732,27 @@ footer {
     }
   }
 }
+/* Current Events Page */
+#current-events-page {
+  @include page-header;
+  padding-top: 75px;
+  .current-events-page-content {
+    background: #fff;
+    color: $dark-blue;
+    padding: 20px 0px;
+  }
+  .current-events-page-span {
+    @include page-hero;
+    background: center no-repeat url('../img/filler-square-04.png');
+    background-size: cover;
+  }
+}
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 
   body {
     font-size: 18px;
     line-height: 1.5rem;
-  }
-  main {
-    a:link,
-    a:visited {
-      color: $dark-blue;
-      text-decoration: none;
-      font-weight: 600;
-      &:hover {
-        border-bottom: 2px solid;
-      }
-    }
   }
   /* Hero Section */ 
   #hero {
@@ -1000,10 +1019,7 @@ footer {
       }
     }
   }
-} 
-#donation-page-cta {
-  @include page-header;
-  @include cta-stats;
+  /* Current Events Page */
 }
 /*
 * Hide only visually, but have it available for screen readers:
