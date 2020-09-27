@@ -156,6 +156,7 @@ main a:visited {
   #hero .rounded-green-button {
     background: #a9cf38;
     border-radius: 5px;
+    border-bottom: none;
     padding: 5px 15px;
     min-width: 135px;
     max-width: 140px;
@@ -238,6 +239,7 @@ main a:visited {
   #cta .rounded-green-button {
     background: #a9cf38;
     border-radius: 5px;
+    border-bottom: none;
     padding: 5px 15px;
     margin-top: 10px;
     padding: 10px 0px; }
@@ -359,6 +361,7 @@ main a:visited {
   #events .rounded-green-button {
     background: #a9cf38;
     border-radius: 5px;
+    border-bottom: none;
     padding: 5px 15px; }
     #events .rounded-green-button:hover {
       background: #00b5c2;
@@ -547,6 +550,7 @@ footer {
   #board-of-directors-page .rounded-green-button {
     background: #a9cf38;
     border-radius: 5px;
+    border-bottom: none;
     padding: 5px 15px; }
     #board-of-directors-page .rounded-green-button:hover {
       background: #00b5c2;
@@ -808,6 +812,91 @@ footer {
         line-height: 3rem;
         padding-top: 200px; } }
 
+/* Past Events Page */
+#past-events-page {
+  padding-top: 75px; }
+  #past-events-page h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #past-events-page h1 span {
+      color: #a9cf38; }
+  #past-events-page .past-events-page-span {
+    background: center no-repeat url("../img/filler-square-03.png");
+    background-size: cover; }
+    #past-events-page .past-events-page-span h1 {
+      background: none;
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px; }
+      #past-events-page .past-events-page-span h1 span {
+        color: #003952;
+        display: block; }
+    @media screen and (min-width: 992px) {
+      #past-events-page .past-events-page-span h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 200px; } }
+  #past-events-page .past-events-desc {
+    background: #fff;
+    color: #003952;
+    padding: 20px;
+    margin: 0px; }
+  #past-events-page .past-events-page-content {
+    background: #00b5c2;
+    color: #003952;
+    padding: 20px 0px; }
+    #past-events-page .past-events-page-content .content-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly; }
+    #past-events-page .past-events-page-content article {
+      background: #003952;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      width: 280px;
+      min-height: 450px;
+      justify-content: flex-start;
+      align-items: center;
+      margin: 0 auto;
+      margin-bottom: 20px; }
+      #past-events-page .past-events-page-content article h3 {
+        color: #00b5c2; }
+      #past-events-page .past-events-page-content article i {
+        color: #a9cf38;
+        padding: 20px 0px; }
+      #past-events-page .past-events-page-content article .event-photo {
+        width: 100%;
+        height: 200px; }
+      #past-events-page .past-events-page-content article p {
+        margin: 5px 0px; }
+      #past-events-page .past-events-page-content article .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 10px 0px; }
+        #past-events-page .past-events-page-content article .button-container a:link,
+        #past-events-page .past-events-page-content article .button-container a:visited {
+          color: #003952;
+          font-family: "Poppins", sans-serif;
+          font-weight: 700;
+          text-decoration: none;
+          text-transform: uppercase; }
+        #past-events-page .past-events-page-content article .button-container .rounded-green-button {
+          background: #a9cf38;
+          border-radius: 5px;
+          border-bottom: none;
+          padding: 5px 15px; }
+          #past-events-page .past-events-page-content article .button-container .rounded-green-button:hover {
+            background: #00b5c2;
+            transition: 1s background; }
+
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */
@@ -1004,7 +1093,17 @@ footer {
       width: 30%;
       padding: 50px 0px; }
 
-  /* Current Events Page */ }
+  /* Current Events Page */
+  #current-events-page .current-events-page-span {
+    height: 350px; }
+
+  /* Past Events Page */
+  #past-events-page .past-events-page-content .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly; }
+    #past-events-page .past-events-page-content .content-wrapper article {
+      margin: 30px 0px; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
