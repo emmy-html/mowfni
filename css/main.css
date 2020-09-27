@@ -897,6 +897,36 @@ footer {
             background: #00b5c2;
             transition: 1s background; }
 
+/* Single Event Page */
+#single-event-page {
+  padding-top: 75px; }
+  #single-event-page h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #single-event-page h1 span {
+      color: #a9cf38; }
+  #single-event-page .single-event-span {
+    background: center no-repeat url("../img/filler-square-04.png");
+    background-size: cover; }
+    #single-event-page .single-event-span h1 {
+      background: none;
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px; }
+      #single-event-page .single-event-span h1 span {
+        color: #003952;
+        display: block; }
+    @media screen and (min-width: 992px) {
+      #single-event-page .single-event-span h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 200px; } }
+
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */
