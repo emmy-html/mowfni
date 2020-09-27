@@ -448,11 +448,9 @@ footer {
         min-width: 280px;
         max-width: 490px; }
       #about-page-hero .about-page-hero-content article:nth-of-type(1) {
-        height: auto; }
-      #about-page-hero .about-page-hero-content article:nth-of-type(2) {
         background: center no-repeat url("../img/heavy-filter-02.png");
         background-size: cover; }
-      #about-page-hero .about-page-hero-content article:nth-of-type(3) {
+      #about-page-hero .about-page-hero-content article:nth-of-type(2) {
         background: center no-repeat url("../img/heavy-filler-01.png");
         background-size: cover; }
 
@@ -473,7 +471,7 @@ footer {
   flex-flow: column wrap; }
   #about-page-our-history .about-page-cta article {
     background: #00b5c2;
-    height: 300px; }
+    height: 275px; }
     #about-page-our-history .about-page-cta article .content-wrapper {
       display: flex;
       flex-flow: column wrap;
@@ -600,7 +598,7 @@ footer {
 
   /* Footer */
   footer .text-logo {
-    margin: 0px 20px; }
+    margin: 20px; }
   footer .content-wrapper {
     display: flex;
     justify-content: space-between;
@@ -612,7 +610,20 @@ footer {
   footer .navigation a:link,
   footer .navigation a:visited {
     font-size: 1rem;
-    line-height: 1.20rem; } }
+    line-height: 1.20rem; }
+
+  /* About Page > About Us Section */
+  #about-page-hero .about-page-hero-content {
+    display: flex;
+    flex-flow: row nowrap; }
+
+  .our-history-container {
+    display: flex;
+    flex-flow: row nowrap; }
+    .our-history-container article.main-content {
+      width: 99%; }
+    .our-history-container .about-page-cta {
+      width: 250px; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
