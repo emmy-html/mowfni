@@ -874,7 +874,19 @@ footer {
     margin: 0 auto; }
   #donation-page .content-wrapper .donation-container {
     margin: 0 auto;
-    padding-left: 60px; } }
+    padding-left: 60px; }
+
+  /* Other Ways to Donate Page */
+  #other-ways-page .other-ways-span {
+    height: 400px; }
+  #other-ways-page .other-ways-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start; }
+    #other-ways-page .other-ways-content article {
+      width: 30%;
+      padding: 50px 0px; } }
 #donation-page-cta h1 {
   background: #003952;
   color: #fff;
