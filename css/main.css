@@ -602,6 +602,9 @@ footer {
   width: 250px; }
 #resources-additional-resources .content-wrapper img {
   width: 250px; }
+#resources-additional-resources .content-wrapper img.resource-ssa {
+  width: 165px;
+  height: 165px; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
@@ -749,7 +752,24 @@ footer {
       justify-content: center;
       align-items: center; }
       #board-of-directors-page .board-of-directors-content .content-wrapper article {
-        width: 33%; } }
+        width: 33%; }
+
+  /* Resources Page */
+  #resources-page .resources-page-content .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start; }
+    #resources-page .resources-page-content .content-wrapper article {
+      width: 40%; }
+
+  #resources-additional-resources .resources-additional-content .content-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start; }
+    #resources-additional-resources .resources-additional-content .content-wrapper article {
+      width: 40%;
+      padding: 20px 0px; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

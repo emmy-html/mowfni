@@ -618,6 +618,10 @@ footer {
     img {
       width: 250px;
     }
+    img.resource-ssa {
+      width: 165px;
+      height: 165px;
+    }
   }
 }
 /* Large Tablets & Desktop Styles */ 
@@ -818,6 +822,33 @@ footer {
         align-items: center;
         article {
           width: 33%;
+        }
+      }
+    }
+  }
+  /* Resources Page */ 
+  #resources-page {
+    .resources-page-content {
+      .content-wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        article {
+          width: 40%;
+        }
+      }
+    }
+  }
+  #resources-additional-resources {
+    .resources-additional-content {
+      .content-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        article {
+          width: 40%;
+          padding: 20px 0px;
         }
       }
     }
