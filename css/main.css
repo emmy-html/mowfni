@@ -835,6 +835,55 @@ footer {
   #donation-page .content-wrapper .donation-container {
     margin: 0 auto;
     padding-left: 60px; } }
+#donation-page-cta h1 {
+  background: #003952;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto; }
+  #donation-page-cta h1 span {
+    color: #a9cf38; }
+#donation-page-cta .impact-content {
+  display: flex;
+  flex-direction: column; }
+  #donation-page-cta .impact-content article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 360px; }
+    #donation-page-cta .impact-content article h2 {
+      color: #003952;
+      font-size: 5rem;
+      font-weight: 700;
+      line-height: 5rem;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 50px; }
+      #donation-page-cta .impact-content article h2 span {
+        display: block;
+        font-weight: 600;
+        font-size: 1.65rem;
+        line-height: 1.65rem; }
+    #donation-page-cta .impact-content article:nth-of-type(1) {
+      background: center no-repeat url("../img/stat_1.png");
+      background-size: cover; }
+    #donation-page-cta .impact-content article:nth-of-type(2) {
+      background: center no-repeat url("../img/stat_2.png");
+      background-size: cover; }
+    #donation-page-cta .impact-content article:nth-of-type(3) {
+      background: center no-repeat url("../img/stat_3.png");
+      background-size: cover; }
+@media screen and (min-width: 992px) {
+  #donation-page-cta .impact-content {
+    display: flex;
+    flex-flow: row nowrap; }
+    #donation-page-cta .impact-content article {
+      width: 33.3%; }
+      #donation-page-cta .impact-content article h2 span {
+        display: block; } }
+
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

@@ -920,6 +920,10 @@ footer {
     }
   }
 } 
+#donation-page-cta {
+  @include page-header;
+  @include cta-stats;
+}
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
