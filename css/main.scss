@@ -518,6 +518,11 @@ footer {
     }
   }
 }
+/* Board of Directors Page */ 
+#board-of-directors-page {
+  @include page-header;
+  padding-top: 75px;
+}
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 

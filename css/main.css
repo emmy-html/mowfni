@@ -488,6 +488,17 @@ footer {
     #about-page-our-history .about-page-cta article:nth-of-type(2) {
       background: #a9cf38; }
 
+/* Board of Directors Page */
+#board-of-directors-page {
+  padding-top: 75px; }
+  #board-of-directors-page h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px; }
+    #board-of-directors-page h1 span {
+      color: #a9cf38; }
+
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */
