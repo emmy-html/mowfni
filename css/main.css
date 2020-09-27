@@ -127,6 +127,9 @@ h2, h4 {
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase; }
+    .button-container a:link:hover,
+    .button-container a:visited:hover {
+      border-bottom: none; }
 
 main a:link,
 main a:visited {
@@ -888,6 +891,9 @@ footer {
           font-weight: 700;
           text-decoration: none;
           text-transform: uppercase; }
+          #past-events-page .past-events-page-content article .button-container a:link:hover,
+          #past-events-page .past-events-page-content article .button-container a:visited:hover {
+            border-bottom: none; }
         #past-events-page .past-events-page-content article .button-container .rounded-green-button {
           background: #a9cf38;
           border-radius: 5px;
@@ -926,6 +932,116 @@ footer {
         font-size: 3rem;
         line-height: 3rem;
         padding-top: 200px; } }
+
+/* Volunteer Page */
+#volunteer-page-hero {
+  background: #fff;
+  color: #003952;
+  padding-top: 75px; }
+  #volunteer-page-hero h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #volunteer-page-hero h1 span {
+      color: #a9cf38; }
+  #volunteer-page-hero .volunteer-page-span {
+    background: center no-repeat url("../img/volunteer-hero.png");
+    background-size: cover; }
+    #volunteer-page-hero .volunteer-page-span h1 {
+      background: none;
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px; }
+      #volunteer-page-hero .volunteer-page-span h1 span {
+        color: #003952;
+        display: block; }
+    @media screen and (min-width: 992px) {
+      #volunteer-page-hero .volunteer-page-span h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 200px; } }
+  #volunteer-page-hero .content-wrapper p {
+    text-align: justify;
+    margin: 0;
+    padding: 15px 0px; }
+  #volunteer-page-hero .button-container {
+    background: #a9cf38; }
+    #volunteer-page-hero .button-container .rounded-blue-button {
+      background: #00b5c2;
+      border-radius: 5px;
+      padding: 5px 15px;
+      background: #003952;
+      color: #a9cf38;
+      font-size: 2rem;
+      line-height: 2rem;
+      min-width: 240px;
+      max-width: 240px;
+      margin: 20px;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+      #volunteer-page-hero .button-container .rounded-blue-button:hover {
+        background: #a9cf38;
+        transition: 1s background; }
+      #volunteer-page-hero .button-container .rounded-blue-button:hover {
+        background: #00b5c2;
+        color: #003952; }
+
+#volunteer-page-cta h1 {
+  background: #003952;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto; }
+  #volunteer-page-cta h1 span {
+    color: #a9cf38; }
+#volunteer-page-cta .impact-content {
+  display: flex;
+  flex-direction: column; }
+  #volunteer-page-cta .impact-content article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    height: 360px; }
+    #volunteer-page-cta .impact-content article h2 {
+      color: #003952;
+      font-size: 5rem;
+      font-weight: 700;
+      line-height: 5rem;
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 50px; }
+      #volunteer-page-cta .impact-content article h2 span {
+        display: block;
+        font-weight: 600;
+        font-size: 1.65rem;
+        line-height: 1.65rem; }
+    #volunteer-page-cta .impact-content article:nth-of-type(1) {
+      background: center no-repeat url("../img/stat_1.png");
+      background-size: cover; }
+    #volunteer-page-cta .impact-content article:nth-of-type(2) {
+      background: center no-repeat url("../img/stat_2.png");
+      background-size: cover; }
+    #volunteer-page-cta .impact-content article:nth-of-type(3) {
+      background: center no-repeat url("../img/stat_3.png");
+      background-size: cover; }
+@media screen and (min-width: 992px) {
+  #volunteer-page-cta .impact-content {
+    display: flex;
+    flex-flow: row nowrap; }
+    #volunteer-page-cta .impact-content article {
+      width: 33.3%; }
+      #volunteer-page-cta .impact-content article h2 span {
+        display: block; } }
+#volunteer-page-cta .impact-content article h2 {
+  font-size: 4rem;
+  line-height: 4rem; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
@@ -1133,7 +1249,12 @@ footer {
     flex-flow: row wrap;
     justify-content: space-evenly; }
     #past-events-page .past-events-page-content .content-wrapper article {
-      margin: 30px 0px; } }
+      margin: 30px 0px; }
+
+  /* Volunteer Page */
+  #volunteer-page-hero .button-container .rounded-blue-button {
+    min-width: 400px;
+    max-width: 410px; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
