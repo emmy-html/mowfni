@@ -522,6 +522,47 @@ footer {
 #board-of-directors-page {
   @include page-header;
   padding-top: 75px;
+  width: 100%;
+  .board-of-directors-content {
+    background: $light-blue;
+    color: $dark-blue;
+    .content-wrapper {
+      display: flex;
+      flex-flow: column wrap;
+      width: 90%;
+      article {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+        width: 100%;
+        img {
+          width: 150px;
+          height: 150px;
+          border-radius: 100px;
+          margin: 0 auto;
+        }
+        h3 {
+          font-size: 1.75rem;
+          line-height: 1.75rem;
+          padding: 10px 0px;
+          span {
+            display: block;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+  .button-container {
+    margin: 20px;
+  }
+  .rounded-green-button {
+    @include body-green-button;
+  }
 }
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {

@@ -414,7 +414,8 @@ footer {
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    padding: 20px 0px; }
+    padding: 20px 0px;
+    margin: 0 auto; }
     #about-page-hero h1 span {
       color: #a9cf38; }
   #about-page-hero h1 {
@@ -459,7 +460,8 @@ footer {
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5rem;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  margin: 0 auto; }
   #about-page-our-history h1 span {
     color: #a9cf38; }
 #about-page-our-history article {
@@ -490,14 +492,53 @@ footer {
 
 /* Board of Directors Page */
 #board-of-directors-page {
-  padding-top: 75px; }
+  padding-top: 75px;
+  width: 100%; }
   #board-of-directors-page h1 {
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5rem;
-    padding: 20px 0px; }
+    padding: 20px 0px;
+    margin: 0 auto; }
     #board-of-directors-page h1 span {
       color: #a9cf38; }
+  #board-of-directors-page .board-of-directors-content {
+    background: #00b5c2;
+    color: #003952; }
+    #board-of-directors-page .board-of-directors-content .content-wrapper {
+      display: flex;
+      flex-flow: column wrap;
+      width: 90%; }
+      #board-of-directors-page .board-of-directors-content .content-wrapper article {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0px;
+        width: 100%; }
+        #board-of-directors-page .board-of-directors-content .content-wrapper article img {
+          width: 150px;
+          height: 150px;
+          border-radius: 100px;
+          margin: 0 auto; }
+        #board-of-directors-page .board-of-directors-content .content-wrapper article h3 {
+          font-size: 1.75rem;
+          line-height: 1.75rem;
+          padding: 10px 0px; }
+          #board-of-directors-page .board-of-directors-content .content-wrapper article h3 span {
+            display: block;
+            font-size: 1.5rem;
+            line-height: 1.5rem;
+            font-weight: 300; }
+  #board-of-directors-page .button-container {
+    margin: 20px; }
+  #board-of-directors-page .rounded-green-button {
+    background: #a9cf38;
+    border-radius: 5px;
+    padding: 5px 15px; }
+    #board-of-directors-page .rounded-green-button:hover {
+      background: #00b5c2;
+      transition: 1s background; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
