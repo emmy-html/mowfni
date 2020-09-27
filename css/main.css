@@ -411,6 +411,7 @@ footer {
 #about-page-hero {
   padding-top: 75px; }
   #about-page-hero h1 {
+    background: #003952;
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -457,6 +458,7 @@ footer {
 
 /* About Page > About Us > Our History Section */
 #about-page-our-history h1 {
+  background: #003952;
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -495,6 +497,7 @@ footer {
   padding-top: 75px;
   width: 100%; }
   #board-of-directors-page h1 {
+    background: #003952;
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -544,6 +547,7 @@ footer {
 #annual-report-page {
   padding-top: 75px; }
   #annual-report-page h1 {
+    background: #003952;
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -556,6 +560,7 @@ footer {
 #resources-page {
   padding-top: 75px; }
   #resources-page h1 {
+    background: #003952;
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5rem;
@@ -578,6 +583,7 @@ footer {
         width: 250px; }
 
 #resources-additional-resources h1 {
+  background: #003952;
   color: #fff;
   font-size: 1.5rem;
   line-height: 1.5rem;
@@ -605,6 +611,28 @@ footer {
 #resources-additional-resources .content-wrapper img.resource-ssa {
   width: 165px;
   height: 165px; }
+
+/* Donation Page */
+#donation-page {
+  background: #00b5c2;
+  color: #003952;
+  padding-top: 75px; }
+  #donation-page h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #donation-page h1 span {
+      color: #a9cf38; }
+  #donation-page .content-wrapper .donation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
@@ -769,7 +797,9 @@ footer {
     align-items: flex-start; }
     #resources-additional-resources .resources-additional-content .content-wrapper article {
       width: 40%;
-      padding: 20px 0px; } }
+      padding: 20px 0px; }
+      #resources-additional-resources .resources-additional-content .content-wrapper article h3 {
+        text-transform: none; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

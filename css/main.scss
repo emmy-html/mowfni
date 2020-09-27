@@ -624,6 +624,23 @@ footer {
     }
   }
 }
+/* Donation Page */ 
+#donation-page {
+  @include page-header;
+  background: $light-blue;
+  color: $dark-blue;
+  padding-top: 75px;
+  .content-wrapper {
+    .donation-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      padding: 20px 0px;
+    }
+  }
+}
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 
@@ -849,11 +866,14 @@ footer {
         article {
           width: 40%;
           padding: 20px 0px;
+          h3 {
+            text-transform: none;
+          }
         }
       }
     }
   }
-}
+} 
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
