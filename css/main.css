@@ -626,13 +626,31 @@ footer {
     margin: 0 auto; }
     #donation-page h1 span {
       color: #a9cf38; }
+  #donation-page .donation-span {
+    height: 300px;
+    background: top no-repeat url("../img/about-hero.png");
+    background-size: cover; }
+    #donation-page .donation-span h1 {
+      background: none;
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px; }
+      #donation-page .donation-span h1 span {
+        color: #003952;
+        display: block; }
   #donation-page .content-wrapper .donation-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 20px 0px; }
+    width: 100%; }
+  #donation-page .content-wrapper h2 {
+    font-size: 1.25rem;
+    line-height: 1.35rem;
+    font-weight: 400;
+    padding: 20px 0px;
+    text-transform: none; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {

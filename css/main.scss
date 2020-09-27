@@ -630,6 +630,22 @@ footer {
   background: $light-blue;
   color: $dark-blue;
   padding-top: 75px;
+  .donation-span {
+    height: 300px;
+    background: top no-repeat url('../img/about-hero.png');
+    background-size: cover;
+    h1 {
+      background: none;
+      color: $dark-blue;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px;
+      span {
+        color: $dark-blue;
+        display: block;
+      }
+    }
+  }
   .content-wrapper {
     .donation-container {
       display: flex;
@@ -637,7 +653,13 @@ footer {
       justify-content: center;
       align-items: center;
       width: 100%;
+    }
+    h2 {
+      font-size: 1.25rem;
+      line-height: 1.35rem;
+      font-weight: 400;
       padding: 20px 0px;
+      text-transform: none;
     }
   }
 }
