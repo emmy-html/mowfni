@@ -817,7 +817,24 @@ footer {
       width: 40%;
       padding: 20px 0px; }
       #resources-additional-resources .resources-additional-content .content-wrapper article h3 {
-        text-transform: none; } }
+        text-transform: none; }
+
+  /* Donation Page */
+  #donation-page .donation-span {
+    height: 500px; }
+    #donation-page .donation-span h1 {
+      font-size: 3rem;
+      line-height: 3rem;
+      padding-top: 300px; }
+  #donation-page .content-wrapper h2 {
+    font-size: 2rem;
+    line-height: 2rem;
+    min-width: 700px;
+    max-width: 710px;
+    margin: 0 auto; }
+  #donation-page .content-wrapper .donation-container {
+    margin: 0 auto;
+    padding-left: 60px; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

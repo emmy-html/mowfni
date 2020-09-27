@@ -895,6 +895,30 @@ footer {
       }
     }
   }
+  /* Donation Page */ 
+  #donation-page {
+    .donation-span {
+      height: 500px;
+      h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 300px;
+      }
+    }
+    .content-wrapper {
+      h2 {
+        font-size: 2rem;
+        line-height: 2rem;
+        min-width: 700px;
+        max-width: 710px;
+        margin: 0 auto;
+      }
+      .donation-container {
+        margin: 0 auto;
+        padding-left: 60px;
+      }
+    }
+  }
 } 
 /*
 * Hide only visually, but have it available for screen readers:
