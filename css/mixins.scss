@@ -129,3 +129,23 @@
           }
       }
 }
+@mixin page-hero {
+    h1 {
+        background: none;
+        color: $dark-blue;
+        font-size: 2rem;
+        line-height: 2rem;
+        padding-top: 175px;
+        span {
+          color: $dark-blue;
+          display: block;
+        }
+      }
+      @media screen and (min-width: 992px) {
+        h1 {
+            font-size: 3rem;
+            line-height: 3rem;
+            padding-top: 200px;
+          }
+      }
+}

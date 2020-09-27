@@ -669,6 +669,20 @@ footer {
     background-size: cover;
     width: 100%;
     height: 300px; }
+    #other-ways-page .other-ways-span h1 {
+      background: none;
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px; }
+      #other-ways-page .other-ways-span h1 span {
+        color: #003952;
+        display: block; }
+    @media screen and (min-width: 992px) {
+      #other-ways-page .other-ways-span h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 200px; } }
   #other-ways-page article p {
     margin: 0px 20px; }
   #other-ways-page article.other-ways-desc {
@@ -880,11 +894,11 @@ footer {
 
   /* Donation Page */
   #donation-page .donation-span {
-    height: 500px; }
+    height: 350px; }
     #donation-page .donation-span h1 {
       font-size: 3rem;
       line-height: 3rem;
-      padding-top: 300px; }
+      padding-top: 200px; }
   #donation-page .content-wrapper h2 {
     font-size: 2rem;
     line-height: 2rem;
@@ -897,7 +911,7 @@ footer {
 
   /* Other Ways to Donate Page */
   #other-ways-page .other-ways-span {
-    height: 400px; }
+    height: 350px; }
   #other-ways-page .other-ways-content {
     display: flex;
     flex-flow: row wrap;
