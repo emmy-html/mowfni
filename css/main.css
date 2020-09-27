@@ -540,6 +540,69 @@ footer {
       background: #00b5c2;
       transition: 1s background; }
 
+/* Annual Report Page */
+#annual-report-page {
+  padding-top: 75px; }
+  #annual-report-page h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #annual-report-page h1 span {
+      color: #a9cf38; }
+
+/* Resources Page */
+#resources-page {
+  padding-top: 75px; }
+  #resources-page h1 {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #resources-page h1 span {
+      color: #a9cf38; }
+  #resources-page .resources-page-content {
+    background: #fff;
+    color: #003952; }
+    #resources-page .resources-page-content .content-wrapper article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px; }
+      #resources-page .resources-page-content .content-wrapper article h3 {
+        text-transform: none; }
+      #resources-page .resources-page-content .content-wrapper article img {
+        width: 250px; }
+
+#resources-additional-resources h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto; }
+  #resources-additional-resources h1 span {
+    color: #a9cf38; }
+#resources-additional-resources .resources-additional-content {
+  background: #fff;
+  color: #003952; }
+  #resources-additional-resources .resources-additional-content article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px; }
+    #resources-additional-resources .resources-additional-content article h3 {
+      padding: 20px 0px; }
+#resources-additional-resources .content-wrapper img.resource-no-background-logo {
+  background: #003952;
+  padding: 20px;
+  width: 250px; }
+#resources-additional-resources .content-wrapper img {
+  width: 250px; }
+
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */

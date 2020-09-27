@@ -564,6 +564,62 @@ footer {
     @include body-green-button;
   }
 }
+/* Annual Report Page */ 
+#annual-report-page {
+  @include page-header;
+  padding-top: 75px;
+}
+/* Resources Page */ 
+#resources-page {
+  @include page-header;
+  padding-top: 75px;
+  .resources-page-content {
+    background: #fff;
+    color: $dark-blue;
+    .content-wrapper {
+      article {
+        h3 {
+          text-transform: none;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+        img {
+          width: 250px;
+        }
+      }
+    }
+  }
+}
+#resources-additional-resources {
+  @include page-header;
+  .resources-additional-content {
+    background: #fff;
+    color: $dark-blue;
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px;
+      h3 {
+        padding: 20px 0px;
+      }
+    }
+  }
+  .content-wrapper {
+    img.resource-no-background-logo {
+      background: $dark-blue;
+      padding: 20px;
+      width: 250px;
+    }
+    img {
+      width: 250px;
+    }
+  }
+}
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 
