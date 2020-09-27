@@ -675,7 +675,18 @@ footer {
     .our-history-container article.main-content {
       width: 99%; }
     .our-history-container .about-page-cta {
-      width: 250px; } }
+      width: 250px; }
+
+  /* Board of Directors Page */
+  #board-of-directors-page .board-of-directors-content {
+    padding: 50px 0px; }
+    #board-of-directors-page .board-of-directors-content .content-wrapper {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center; }
+      #board-of-directors-page .board-of-directors-content .content-wrapper article {
+        width: 33%; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
