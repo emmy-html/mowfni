@@ -485,9 +485,9 @@ nav.fixed-top {
 
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #003952;
+  color: inherit;
   text-decoration: none;
-  background-color: #a9cf38; }
+  background: #003952; }
 
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -521,6 +521,7 @@ nav.fixed-top {
 .nav-item.green-nav-button {
   background: #a9cf38;
   border-radius: 15px;
+  color: #003952;
   margin-left: 10px; }
   .nav-item.green-nav-button a:link,
   .nav-item.green-nav-button a:visited {

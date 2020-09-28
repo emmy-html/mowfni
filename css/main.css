@@ -904,34 +904,63 @@ footer {
             transition: 1s background; }
 
 /* Single Event Page */
-#single-event-page {
+#single-event-page-hero {
   padding-top: 75px; }
-  #single-event-page h1 {
+  #single-event-page-hero h1 {
     background: #003952;
     color: #fff;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
     margin: 0 auto; }
-    #single-event-page h1 span {
+    #single-event-page-hero h1 span {
       color: #a9cf38; }
-  #single-event-page .single-event-span {
+  #single-event-page-hero .single-event-span {
     background: center no-repeat url("../img/filler-square-04.png");
     background-size: cover; }
-    #single-event-page .single-event-span h1 {
+    #single-event-page-hero .single-event-span h1 {
       background: none;
       color: #003952;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
-      #single-event-page .single-event-span h1 span {
+      #single-event-page-hero .single-event-span h1 span {
         color: #003952;
         display: block; }
     @media screen and (min-width: 992px) {
-      #single-event-page .single-event-span h1 {
+      #single-event-page-hero .single-event-span h1 {
         font-size: 3rem;
         line-height: 3rem;
         padding-top: 200px; } }
+
+#single-event-page-desc {
+  background: #fff;
+  color: #003952; }
+  #single-event-page-desc h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #single-event-page-desc h1 span {
+      color: #a9cf38; }
+  #single-event-page-desc p {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    text-align: justify; }
+    #single-event-page-desc p:nth-last-of-type(1) {
+      padding-bottom: 20px; }
+
+#single-event-page-gallery .gallery-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  padding: 20px 0px; }
+  #single-event-page-gallery .gallery-container article {
+    width: 50%; }
+    #single-event-page-gallery .gallery-container article img {
+      width: 100%; }
 
 /* Volunteer Page */
 #volunteer-page-hero {

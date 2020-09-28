@@ -807,13 +807,40 @@ footer {
   }
 }
 /* Single Event Page */ 
-#single-event-page {
+#single-event-page-hero {
   @include page-header;
   padding-top: 75px;
   .single-event-span {
     @include page-hero;
     background: center no-repeat url('../img/filler-square-04.png');
     background-size: cover;
+  }
+}
+#single-event-page-desc {
+  @include page-header;
+  background: #fff;
+  color: $dark-blue;
+  p {
+    margin: 0;
+    padding: 20px 0px 0px 0px;
+    text-align: justify;
+    &:nth-last-of-type(1) {
+      padding-bottom: 20px;
+    }
+  }
+}
+#single-event-page-gallery {
+  .gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+    article {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
   }
 }
 /* Volunteer Page */ 
