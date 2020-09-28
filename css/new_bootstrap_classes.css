@@ -485,9 +485,9 @@ nav.fixed-top {
 
 .dropdown-item.active,
 .dropdown-item:active {
-  color: #fff;
+  color: #003952;
   text-decoration: none;
-  background-color: #007bff; }
+  background-color: #a9cf38; }
 
 .dropdown-item.disabled,
 .dropdown-item:disabled {
