@@ -1218,6 +1218,36 @@ footer {
         opacity: .75;
         transition: 1s opacity; }
 
+/* About Meals On Wheels Page */
+#about-mow-page-hero {
+  background: center no-repeat url("../img/volunteer-hero.png");
+  background-size: 100%;
+  padding-top: 75px; }
+  #about-mow-page-hero h1 {
+    background: none;
+    color: #003952;
+    font-size: 2rem;
+    line-height: 2rem;
+    padding-top: 175px; }
+    #about-mow-page-hero h1 span {
+      color: #003952;
+      display: block; }
+  @media screen and (min-width: 992px) {
+    #about-mow-page-hero h1 {
+      font-size: 3rem;
+      line-height: 3rem;
+      padding-top: 200px; } }
+
+#about-mow-page-locations h1 {
+  background: #003952;
+  color: #fff;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto; }
+  #about-mow-page-locations h1 span {
+    color: #a9cf38; }
+
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
   /* Universal Styles */
@@ -1307,11 +1337,9 @@ footer {
     display: flex;
     flex-flow: row wrap; }
     #meals .meals-content-container article {
-      width: 50%;
-      height: 300px; }
+      width: 33.3%;
+      height: 400px; }
       #meals .meals-content-container article:nth-of-type(3) {
-        background: #00b5c2; }
-      #meals .meals-content-container article:nth-of-type(4) {
         background: #a9cf38; }
       #meals .meals-content-container article p {
         min-width: 300px;

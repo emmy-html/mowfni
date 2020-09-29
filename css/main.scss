@@ -997,6 +997,16 @@ footer {
     }
   }
 }
+/* About Meals On Wheels Page */ 
+#about-mow-page-hero {
+  @include page-hero;
+  background: center no-repeat url('../img/volunteer-hero.png');
+  background-size: 100%;
+  padding-top: 75px;
+}
+#about-mow-page-locations {
+  @include page-header;
+}
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 
@@ -1116,12 +1126,9 @@ footer {
       display: flex;
       flex-flow: row wrap;
       article {
-        width: 50%;
-        height: 300px;
+        width: 33.3%;
+        height: 400px;
         &:nth-of-type(3) {
-          background: $light-blue;
-        }
-        &:nth-of-type(4) {
           background: $lime-green;
         }
         p {
