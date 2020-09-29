@@ -668,6 +668,60 @@ footer {
     padding: 20px 0px;
     text-transform: none; }
 
+#donation-page-gift-impact {
+  background: #fff;
+  color: #003952; }
+  #donation-page-gift-impact h1 {
+    background: #003952;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto; }
+    #donation-page-gift-impact h1 span {
+      color: #a9cf38; }
+  #donation-page-gift-impact h2 {
+    color: #003952;
+    font-weight: 700;
+    padding: 10px 0px; }
+    #donation-page-gift-impact h2 span {
+      display: block; }
+  #donation-page-gift-impact article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    #donation-page-gift-impact article img {
+      padding: 25px 0px;
+      width: 80%; }
+    #donation-page-gift-impact article p {
+      text-align: justify; }
+    #donation-page-gift-impact article .button-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 20px; }
+      #donation-page-gift-impact article .button-container a:link,
+      #donation-page-gift-impact article .button-container a:visited {
+        color: #003952;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+        text-transform: uppercase; }
+        #donation-page-gift-impact article .button-container a:link:hover,
+        #donation-page-gift-impact article .button-container a:visited:hover {
+          border-bottom: none; }
+      #donation-page-gift-impact article .button-container .rounded-green-button {
+        background: #a9cf38;
+        border-radius: 5px;
+        border-bottom: none;
+        padding: 5px 15px; }
+        #donation-page-gift-impact article .button-container .rounded-green-button:hover {
+          background: #00b5c2;
+          transition: 1s background; }
+
 #donation-page-cta h1 {
   background: #003952;
   color: #fff;
@@ -1369,7 +1423,17 @@ footer {
     display: flex;
     flex-flow: row nowrap; }
     #get-involved-page-cta .get-involved-cta-container article {
-      width: 50%; } }
+      width: 50%; }
+
+  #donation-page-gift-impact .content-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #donation-page-gift-impact .content-wrapper article {
+      width: 40%;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 0px; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

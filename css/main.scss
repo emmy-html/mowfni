@@ -674,6 +674,40 @@ footer {
     }
   }
 }
+#donation-page-gift-impact {
+  @include page-header;
+  background: #fff;
+  color: $dark-blue;
+  h2 {
+    color: $dark-blue;
+    font-weight: 700;
+    padding: 10px 0px;
+    span {
+      display: block;
+    }
+  }
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+      padding: 25px 0px;
+      width: 80%;
+    }
+    p {
+      text-align: justify;
+    }
+    .button-container {
+      @include button-container;
+      width: 100%;
+      margin-bottom: 20px;
+      .rounded-green-button {
+        @include body-green-button;
+      }
+    }
+  }
+}
 #donation-page-cta {
   @include page-header;
   @include cta-stats;
@@ -1261,6 +1295,19 @@ footer {
       flex-flow: row nowrap;
       article {
         width: 50%;
+      }
+    }
+  }
+  #donation-page-gift-impact {
+    .content-wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      article {
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
       }
     }
   }
