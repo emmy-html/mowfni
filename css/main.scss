@@ -894,6 +894,66 @@ footer {
     }
   }
 }
+/* Get Involved Page */ 
+#get-involved-page-hero {
+  @include page-header;
+  padding-top: 75px;
+  .volunteer-page-span {
+    @include page-hero;
+    background: url('../img/volunteer-hero.png');
+    background-size: 100%;
+  }
+}
+#get-involved-page-cta {
+  @include page-header;
+  background: #fff;
+  color: $dark-blue;
+  p {
+    margin: 0;
+    padding: 5px 0px;
+    text-align: justify;
+  }
+  .get-involved-cta-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      height: 350px;
+      h2 {
+        font-size: 3rem;
+        line-height: 3rem;
+      }
+      h3 {
+        font-size: 3rem;
+        line-height: 3rem;
+      }
+      &:nth-of-type(1) {
+        background: center no-repeat url('../img/filler-square-01.png');
+        background-size: cover;
+      }
+      &:nth-of-type(2) {
+        background: center no-repeat url('../img/filler-square-03.png');
+        background-size: cover;
+      }
+      a:link,
+      a:visited {
+        text-decoration: none;
+        &:hover {
+          border-bottom: none;
+        }
+      }
+      &:hover {
+        opacity: .75;
+        transition: 1s opacity;
+      }
+    }
+  }
+}
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 
@@ -1191,6 +1251,16 @@ footer {
       .rounded-blue-button {
         min-width: 400px;
         max-width: 410px;
+      }
+    }
+  }
+  /* Get Involved Page */ 
+  #get-involved-page-cta {
+    .get-involved-cta-container {
+      display: flex;
+      flex-flow: row nowrap;
+      article {
+        width: 50%;
       }
     }
   }
