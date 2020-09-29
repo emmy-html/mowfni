@@ -255,7 +255,8 @@ main a:visited {
   background: #003952; }
   #our-impact h1 {
     color: #fff;
-    padding: 20px 0px; }
+    padding: 20px 0px;
+    line-height: 1.75rem; }
     #our-impact h1 span {
       color: #a9cf38; }
   #our-impact .impact-content {
@@ -295,7 +296,8 @@ main a:visited {
   background: #003952; }
   #involvement-cta h1 {
     color: #fff;
-    padding: 20px 0px; }
+    padding: 20px 0px;
+    line-height: 1.75rem; }
     #involvement-cta h1 span {
       color: #a9cf38; }
   #involvement-cta .involvement-cta-content {
@@ -319,56 +321,67 @@ main a:visited {
       font-size: 1.25rem;
       line-height: 1.35rem; }
 
-/* Events Section */
-#events {
+/* Home Delivered Meals Section */
+#meals {
   background: #003952; }
-  #events h1 {
+  #meals h1 {
     color: #fff;
-    padding: 20px 0px; }
-    #events h1 span {
+    padding: 20px 0px;
+    line-height: 1.75rem; }
+    #meals h1 span {
       color: #a9cf38; }
-  #events .events-content-container {
+  #meals .meals-content-container {
     color: #003952;
     display: flex;
     flex-direction: column;
     text-align: center; }
-  #events article {
+  #meals article {
     display: flex;
     flex-direction: column;
-    height: 250px;
-    justify-content: center; }
-    #events article:nth-of-type(odd) {
+    height: 300px;
+    justify-content: center;
+    align-items: center; }
+    #meals article:nth-of-type(odd) {
       background: #a9cf38; }
-      #events article:nth-of-type(odd):hover {
-        cursor: pointer;
-        background: #00b5c2;
-        transition: 1s background; }
-    #events article:nth-of-type(even) {
+    #meals article:nth-of-type(even) {
       background: #00b5c2; }
-      #events article:nth-of-type(even):hover {
-        cursor: pointer;
-        background: #a9cf38;
-        transition: 1s background; }
-    #events article i {
-      padding-bottom: 25px; }
-    #events article h4 {
+    #meals article i {
+      padding-bottom: 15px; }
+    #meals article h4 {
       font-size: 1.5rem;
       font-weight: 700;
       line-height: 1.5rem; }
-      #events article h4 span {
+      #meals article h4 span {
         display: block;
         font-size: 1.5rem;
         font-weight: 400; }
-  #events .button-container {
-    padding: 25px 0px; }
-  #events .rounded-green-button {
+    #meals article p {
+      padding: 0px 10px; }
+    #meals article ol li {
+      text-align: justify; }
+  #meals .rounded-blue-button {
+    background: #00b5c2;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 2px solid #00b5c2; }
+    #meals .rounded-blue-button:hover {
+      background: #a9cf38;
+      transition: 1s background; }
+    #meals .rounded-blue-button:hover {
+      background: none;
+      border: 2px solid #003952; }
+  #meals .rounded-green-button {
     background: #a9cf38;
     border-radius: 5px;
     border-bottom: none;
-    padding: 5px 15px; }
-    #events .rounded-green-button:hover {
+    padding: 5px 15px;
+    border: 2px solid #a9cf38; }
+    #meals .rounded-green-button:hover {
       background: #00b5c2;
       transition: 1s background; }
+    #meals .rounded-green-button:hover {
+      background: none;
+      border: 2px solid #003952; }
 
 /* Footer */
 footer {
@@ -1289,29 +1302,20 @@ footer {
     min-width: 400px;
     max-width: 420px; }
 
-  /* Curret Events */
-  #events .events-content-container {
+  /* Home Delivered Meals Section */
+  #meals .meals-content-container {
     display: flex;
     flex-flow: row wrap; }
-    #events .events-content-container article {
+    #meals .meals-content-container article {
       width: 50%;
       height: 300px; }
-      #events .events-content-container article:nth-of-type(3) {
+      #meals .meals-content-container article:nth-of-type(3) {
         background: #00b5c2; }
-        #events .events-content-container article:nth-of-type(3):hover {
-          background: #a9cf38;
-          transition: 1s background; }
-      #events .events-content-container article:nth-of-type(4) {
+      #meals .meals-content-container article:nth-of-type(4) {
         background: #a9cf38; }
-        #events .events-content-container article:nth-of-type(4):hover {
-          background: #00b5c2;
-          transition: 1s background; }
-  #events .button-container {
-    padding-bottom: 50px; }
-    #events .button-container .rounded-green-button {
-      font-size: 1.75rem;
-      margin: auto;
-      width: 50%; }
+      #meals .meals-content-container article p {
+        min-width: 300px;
+        max-width: 500px; }
 
   /* Footer */
   footer .text-logo {

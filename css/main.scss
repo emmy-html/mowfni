@@ -336,11 +336,11 @@ main {
     }
   }
 }
-/* Events Section */ 
-#events {
+/* Home Delivered Meals Section */ 
+#meals {
   @include section-header;
   background: $dark-blue;
-  .events-content-container {
+  .meals-content-container {
     color: $dark-blue;
     display: flex;
     flex-direction: column;
@@ -349,26 +349,17 @@ main {
   article {
     display: flex;
     flex-direction: column;
-    height: 250px;
+    height: 300px;
     justify-content: center;
+    align-items: center;
     &:nth-of-type(odd) {
       background: $lime-green;
-      &:hover {
-        cursor: pointer;
-        background: $light-blue;
-        transition: $bg-transition;
-      }
     }
     &:nth-of-type(even) {
       background: $light-blue;
-      &:hover {
-        cursor: pointer;
-        background: $lime-green;
-        transition: $bg-transition;
-      }
     }
     i {
-      padding-bottom: 25px;
+      padding-bottom: 15px;
     }
     h4 {
       font-size: 1.5rem;
@@ -380,12 +371,30 @@ main {
         font-weight: 400;
       }
     }
+    p {
+      padding: 0px 10px;
+    }
+    ol {
+      li {
+        text-align: justify;
+      }
+    }
   }
-  .button-container {
-    padding: 25px 0px;
+  .rounded-blue-button {
+    @include body-blue-button;
+    border: 2px solid $light-blue;
+    &:hover {
+      background: none;
+      border: 2px solid $dark-blue;
+    }
   }
   .rounded-green-button {
     @include body-green-button;
+    border: 2px solid $lime-green;
+    &:hover {
+      background: none;
+      border: 2px solid $dark-blue;
+    }
   }
 }
 /* Footer */ 
@@ -1101,9 +1110,9 @@ footer {
       }
     }
   }
-  /* Curret Events */ 
-  #events {
-    .events-content-container {
+  /* Home Delivered Meals Section */ 
+  #meals {
+    .meals-content-container {
       display: flex;
       flex-flow: row wrap;
       article {
@@ -1111,27 +1120,15 @@ footer {
         height: 300px;
         &:nth-of-type(3) {
           background: $light-blue;
-          &:hover {
-            background: $lime-green;
-            transition: $bg-transition;
-          }
         }
         &:nth-of-type(4) {
           background: $lime-green;
-          &:hover {
-            background: $light-blue;
-            transition: $bg-transition;
-          }
+        }
+        p {
+          min-width: 300px;
+          max-width: 500px;
         }
       }
-    }
-    .button-container {
-      .rounded-green-button {
-        font-size: 1.75rem;
-        margin: auto;
-        width: 50%;
-      }
-      padding-bottom: 50px;
     }
   }
   /* Footer */ 
