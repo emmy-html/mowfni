@@ -469,10 +469,6 @@ footer {
 #about-page-hero {
   @include page-header;
   padding-top: 75px;
-  h1 {
-    max-width: 450px;
-    margin: 0 auto;
-  }
   .about-page-hero-content {
     @include statistic-format;
     display: flex;  
@@ -999,6 +995,8 @@ footer {
 }
 /* About Meals On Wheels Page */ 
 #about-mow-page-hero {
+  @include page-header;
+  padding-top: 75px;
   .about-mow-page-hero-content {
     @include page-hero;
     background: center no-repeat url('../img/volunteer-hero.png');

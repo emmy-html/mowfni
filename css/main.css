@@ -439,17 +439,15 @@ footer {
 #about-page-hero {
   padding-top: 75px; }
   #about-page-hero h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #about-page-hero h1 span {
-      color: #a9cf38; }
-  #about-page-hero h1 {
-    max-width: 450px;
-    margin: 0 auto; }
+      color: #003952; }
   #about-page-hero .about-page-hero-content {
     display: flex;
     flex-flow: column wrap; }
@@ -486,14 +484,15 @@ footer {
 
 /* About Page > About Us > Our History Section */
 #about-page-our-history h1 {
-  background: #003952;
-  color: #fff;
+  background: #a9cf38;
+  color: #003952;
   font-size: 1.5rem;
   line-height: 1.5rem;
   padding: 20px 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
   #about-page-our-history h1 span {
-    color: #a9cf38; }
+    color: #003952; }
 #about-page-our-history article {
   background: #fff;
   color: #003952;
@@ -525,14 +524,15 @@ footer {
   padding-top: 75px;
   width: 100%; }
   #board-of-directors-page h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #board-of-directors-page h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #board-of-directors-page .board-of-directors-content {
     background: #00b5c2;
     color: #003952; }
@@ -576,27 +576,29 @@ footer {
 #annual-report-page {
   padding-top: 75px; }
   #annual-report-page h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #annual-report-page h1 span {
-      color: #a9cf38; }
+      color: #003952; }
 
 /* Resources Page */
 #resources-page {
   padding-top: 75px; }
   #resources-page h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #resources-page h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #resources-page .resources-page-content {
     background: #fff;
     color: #003952; }
@@ -612,14 +614,15 @@ footer {
         width: 250px; }
 
 #resources-additional-resources h1 {
-  background: #003952;
-  color: #fff;
+  background: #a9cf38;
+  color: #003952;
   font-size: 1.5rem;
   line-height: 1.5rem;
   padding: 20px 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
   #resources-additional-resources h1 span {
-    color: #a9cf38; }
+    color: #003952; }
 #resources-additional-resources .resources-additional-content {
   background: #fff;
   color: #003952; }
@@ -647,14 +650,15 @@ footer {
   color: #003952;
   padding-top: 75px; }
   #donation-page h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #donation-page h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #donation-page .donation-span {
     height: 300px;
     background: top no-repeat url("../img/about-hero.png");
@@ -685,14 +689,15 @@ footer {
   background: #fff;
   color: #003952; }
   #donation-page-gift-impact h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #donation-page-gift-impact h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #donation-page-gift-impact h2 {
     color: #003952;
     font-weight: 700;
@@ -736,14 +741,15 @@ footer {
           transition: 1s background; }
 
 #donation-page-cta h1 {
-  background: #003952;
-  color: #fff;
+  background: #a9cf38;
+  color: #003952;
   font-size: 1.5rem;
   line-height: 1.5rem;
   padding: 20px 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
   #donation-page-cta h1 span {
-    color: #a9cf38; }
+    color: #003952; }
 #donation-page-cta .impact-content {
   display: flex;
   flex-direction: column; }
@@ -788,14 +794,15 @@ footer {
 #other-ways-page {
   padding-top: 75px; }
   #other-ways-page h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #other-ways-page h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #other-ways-page .other-ways-span {
     background: center no-repeat url("../img/filler-square-03.png");
     background-size: cover;
@@ -852,14 +859,15 @@ footer {
 #current-events-page {
   padding-top: 75px; }
   #current-events-page h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #current-events-page h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #current-events-page .current-events-page-content {
     background: #fff;
     color: #003952;
@@ -886,14 +894,15 @@ footer {
 #past-events-page {
   padding-top: 75px; }
   #past-events-page h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #past-events-page h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #past-events-page .past-events-page-span {
     background: center no-repeat url("../img/filler-square-03.png");
     background-size: cover; }
@@ -974,14 +983,15 @@ footer {
 #single-event-page-hero {
   padding-top: 75px; }
   #single-event-page-hero h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #single-event-page-hero h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #single-event-page-hero .single-event-span {
     background: center no-repeat url("../img/filler-square-04.png");
     background-size: cover; }
@@ -1004,14 +1014,15 @@ footer {
   background: #fff;
   color: #003952; }
   #single-event-page-desc h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #single-event-page-desc h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #single-event-page-desc p {
     margin: 0;
     padding: 20px 0px 0px 0px;
@@ -1035,14 +1046,15 @@ footer {
   color: #003952;
   padding-top: 75px; }
   #volunteer-page-hero h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #volunteer-page-hero h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #volunteer-page-hero .volunteer-page-span {
     background: center no-repeat url("../img/volunteer-hero.png");
     background-size: cover; }
@@ -1088,14 +1100,15 @@ footer {
         color: #003952; }
 
 #volunteer-page-cta h1 {
-  background: #003952;
-  color: #fff;
+  background: #a9cf38;
+  color: #003952;
   font-size: 1.5rem;
   line-height: 1.5rem;
   padding: 20px 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
   #volunteer-page-cta h1 span {
-    color: #a9cf38; }
+    color: #003952; }
 #volunteer-page-cta .impact-content {
   display: flex;
   flex-direction: column; }
@@ -1143,14 +1156,15 @@ footer {
 #get-involved-page-hero {
   padding-top: 75px; }
   #get-involved-page-hero h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #get-involved-page-hero h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #get-involved-page-hero .volunteer-page-span {
     background: url("../img/volunteer-hero.png");
     background-size: 100%; }
@@ -1173,14 +1187,15 @@ footer {
   background: #fff;
   color: #003952; }
   #get-involved-page-cta h1 {
-    background: #003952;
-    color: #fff;
+    background: #a9cf38;
+    color: #003952;
     font-size: 1.5rem;
     line-height: 1.5rem;
     padding: 20px 0px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    width: 100%; }
     #get-involved-page-cta h1 span {
-      color: #a9cf38; }
+      color: #003952; }
   #get-involved-page-cta p {
     margin: 0;
     padding: 5px 0px;
@@ -1219,34 +1234,47 @@ footer {
         transition: 1s opacity; }
 
 /* About Meals On Wheels Page */
-#about-mow-page-hero .about-mow-page-hero-content {
-  background: center no-repeat url("../img/volunteer-hero.png");
-  background-size: cover;
+#about-mow-page-hero {
   padding-top: 75px; }
-  #about-mow-page-hero .about-mow-page-hero-content h1 {
-    background: none;
+  #about-mow-page-hero h1 {
+    background: #a9cf38;
     color: #003952;
-    font-size: 2rem;
-    line-height: 2rem;
-    padding-top: 175px; }
-    #about-mow-page-hero .about-mow-page-hero-content h1 span {
-      color: #003952;
-      display: block; }
-  @media screen and (min-width: 992px) {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 20px 0px;
+    margin: 0 auto;
+    width: 100%; }
+    #about-mow-page-hero h1 span {
+      color: #003952; }
+  #about-mow-page-hero .about-mow-page-hero-content {
+    background: center no-repeat url("../img/volunteer-hero.png");
+    background-size: cover;
+    padding-top: 75px; }
     #about-mow-page-hero .about-mow-page-hero-content h1 {
-      font-size: 3rem;
-      line-height: 3rem;
-      padding-top: 200px; } }
+      background: none;
+      color: #003952;
+      font-size: 2rem;
+      line-height: 2rem;
+      padding-top: 175px; }
+      #about-mow-page-hero .about-mow-page-hero-content h1 span {
+        color: #003952;
+        display: block; }
+    @media screen and (min-width: 992px) {
+      #about-mow-page-hero .about-mow-page-hero-content h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        padding-top: 200px; } }
 
 #about-mow-page-locations h1 {
-  background: #003952;
-  color: #fff;
+  background: #a9cf38;
+  color: #003952;
   font-size: 1.5rem;
   line-height: 1.5rem;
   padding: 20px 0px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  width: 100%; }
   #about-mow-page-locations h1 span {
-    color: #a9cf38; }
+    color: #003952; }
 #about-mow-page-locations .about-mow-page-locations-content {
   background: #fff;
   color: #003952; }

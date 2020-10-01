@@ -53,14 +53,15 @@
 }
 @mixin page-header {
     h1 {
-        background: $dark-blue;
-        color: #fff;
+        background: $lime-green;
+        color: $dark-blue;
         font-size: 1.5rem;
         line-height: 1.5rem;
         padding: 20px 0px;
         margin: 0 auto;
+        width: 100%;
         span {
-          color: $lime-green;
+          color: $dark-blue;
         }
       }
 }
