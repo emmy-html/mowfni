@@ -1340,6 +1340,27 @@ footer {
       }
     }
   }
+  #donation-page-gift-impact {
+    .donation-page-contribution-graph {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: flex-start;
+      height: auto;
+    }
+    aside.contribution-programs {
+      width: 63% !important;
+      height: 600px !important;
+    }
+    aside.contribution-fundraising {
+      width: 18.5% !important;
+      height: 600px !important;
+    }
+    aside.contribution-admin {
+      width: 18.5% !important;
+      height: 600px !important;
+    }
+  }
   /* Other Ways to Donate Page */ 
   #other-ways-page {
     .other-ways-span {
