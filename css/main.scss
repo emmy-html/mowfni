@@ -684,10 +684,57 @@ footer {
   background: #fff;
   color: $dark-blue;
   h2 {
+    background: $dark-blue;
+    color: #fff !important;
+  }
+    .donation-page-contribution-graph {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: flex-start;
+      width: 100%;
+      height: 600px;
+      aside.contribution-programs {
+        background: center no-repeat url('../img/filler-images/new-filler-img-01.png');
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+      }
+      aside.contribution-fundraising {
+        background: center no-repeat url('../img/filler-images/new-filler-img-03.png');
+        background-size: cover;
+        height: 180px;
+        width: 100%;
+      }
+      aside.contribution-admin {
+        background: center no-repeat url('../img/filler-images/new-filler-img-02.png');
+        background-size: cover;
+        height: 150px;
+        width: 100%;
+      }
+      aside {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-end;
+        h3 {
+          color: $dark-blue;
+          font-size: 4rem;
+          line-height: 2.75rem;
+          padding-bottom: 25px;
+          span {
+            display: block;
+            font-size: 1.5rem;
+            line-height: 1.75rem;
+          }
+        }
+      }
+    }
+  h2 {
     color: $dark-blue;
     font-weight: 700;
     padding: 10px 0px;
     span {
+      color: $lime-green;
       display: block;
     }
   }
@@ -901,11 +948,11 @@ footer {
     }
   }
   .button-container {
-    background: $lime-green;
-    .rounded-blue-button {
-      @include body-blue-button;
-      background: $dark-blue;
-      color: $lime-green;
+    background: $dark-blue;
+    .rounded-green-button {
+      @include body-green-button;
+      background: $lime-green;
+      color: $dark-blue;
       font-size: 2rem;
       line-height: 2rem;
       min-width: 240px;
@@ -1331,7 +1378,7 @@ footer {
   /* Volunteer Page */
   #volunteer-page-hero {
     .button-container {
-      .rounded-blue-button {
+      .rounded-green-button {
         min-width: 400px;
         max-width: 410px;
       }
@@ -1363,11 +1410,20 @@ footer {
   /* About Meals On Wheels page */
   #about-mow-page-locations {
     .about-mow-page-locations-content {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
       .map {
         height: 600px;
+      }
+      .map-locations {
+        .map-locations-container {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-around;
+          align-items: baseline;
+          aside {
+            width: 23%;
+            height: 350px;
+          }
+        }
       }
     }
   }
