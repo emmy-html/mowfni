@@ -818,8 +818,8 @@ footer {
           background: #00b5c2;
           transition: 1s background; }
 
-/* Frequently Asked Questions */
-#donation-page-faq h1 {
+/* Additional Support */
+#donation-page-additional-support h1 {
   background: #a9cf38;
   color: #003952;
   font-size: 1.5rem;
@@ -827,38 +827,43 @@ footer {
   padding: 20px 0px;
   margin: 0 auto;
   width: 100%; }
-  #donation-page-faq h1 span {
+  #donation-page-additional-support h1 span {
     color: #003952; }
-#donation-page-faq .faq-and-giving-options {
+#donation-page-additional-support .additional-support-container {
   display: flex;
   flex-direction: column; }
-#donation-page-faq .donate-page-giving-options {
+#donation-page-additional-support .content-wrapper {
+  margin-top: 16px; }
+#donation-page-additional-support .donation-page-giving-options,
+#donation-page-additional-support .donation-page-donor-support {
   background: #fff;
   color: #003952; }
-  #donation-page-faq .donate-page-giving-options h2 {
-    background: #003952;
-    color: #fff;
-    font-weight: 700;
-    padding: 10px 0px; }
-    #donation-page-faq .donate-page-giving-options h2 span {
-      color: #a9cf38; }
-  #donation-page-faq .donate-page-giving-options p {
+  #donation-page-additional-support .donation-page-giving-options p,
+  #donation-page-additional-support .donation-page-donor-support p {
     text-align: justify; }
-  #donation-page-faq .donate-page-giving-options i {
+  #donation-page-additional-support .donation-page-giving-options i,
+  #donation-page-additional-support .donation-page-donor-support i {
     background: #003952;
     color: #a9cf38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     text-align: center;
-    border-radius: 100px; }
-  #donation-page-faq .donate-page-giving-options .button-container {
+    border-radius: 100px;
+    margin: 0 auto; }
+  #donation-page-additional-support .donation-page-giving-options .button-container,
+  #donation-page-additional-support .donation-page-donor-support .button-container {
     background: #003952;
     padding: 20px; }
-    #donation-page-faq .donate-page-giving-options .button-container .rounded-blue-button {
+    #donation-page-additional-support .donation-page-giving-options .button-container .rounded-blue-button,
+    #donation-page-additional-support .donation-page-donor-support .button-container .rounded-blue-button {
       background: #00b5c2;
       border-radius: 5px;
       padding: 5px 15px; }
-      #donation-page-faq .donate-page-giving-options .button-container .rounded-blue-button:hover {
+      #donation-page-additional-support .donation-page-giving-options .button-container .rounded-blue-button:hover,
+      #donation-page-additional-support .donation-page-donor-support .button-container .rounded-blue-button:hover {
         background: #a9cf38;
         transition: 1s background; }
 
@@ -1628,6 +1633,14 @@ footer {
     #donation-page-gift-impact .donation-page-contribution-graph aside.contribution-admin {
       width: 22.5% !important;
       height: 600px !important; }
+
+  #donation-page-additional-support .additional-support-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; }
+    #donation-page-additional-support .additional-support-container .donation-page-giving-options,
+    #donation-page-additional-support .additional-support-container .donation-page-donor-support {
+      height: auto; }
 
   /* Other Ways to Donate Page */
   #other-ways-page .other-ways-span {

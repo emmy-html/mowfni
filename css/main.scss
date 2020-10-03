@@ -804,35 +804,34 @@ footer {
     }
   }
 }
-/* Frequently Asked Questions */ 
-#donation-page-faq {
+/* Additional Support */ 
+#donation-page-additional-support {
   @include page-header;
-  .faq-and-giving-options {
+  .additional-support-container {
     display: flex;
     flex-direction: column;
   }
-  .donate-page-giving-options {
+  .content-wrapper {
+    margin-top: 16px;
+  }
+  .donation-page-giving-options,
+  .donation-page-donor-support {
     background: #fff;
     color: $dark-blue;
-    h2 {
-      background: $dark-blue;
-      color: #fff;
-      font-weight: 700;
-      padding: 10px 0px;
-      span {
-        color: $lime-green;
-      }
-    }
     p {
       text-align: justify;
     }
     i {
       background: $dark-blue;
       color: $lime-green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 100px;
       height: 100px;
       text-align: center;
       border-radius: 100px;
+      margin: 0 auto;
     }
     .button-container {
       background: $dark-blue;
@@ -1461,9 +1460,15 @@ footer {
       }
     }
   }
-  #donation-page-faq {
-    .faq-and-giving-options {
-
+  #donation-page-additional-support {
+    .additional-support-container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      .donation-page-giving-options,
+      .donation-page-donor-support {
+        height: auto;
+      }
     }
   }
   /* Other Ways to Donate Page */ 
