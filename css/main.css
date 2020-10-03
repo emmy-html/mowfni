@@ -672,18 +672,57 @@ footer {
       #donation-page .donation-span h1 span {
         color: #003952;
         display: block; }
-  #donation-page .content-wrapper .donation-container {
+  #donation-page .donation-page-content-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%; }
-  #donation-page .content-wrapper h2 {
-    font-size: 1.25rem;
-    line-height: 1.35rem;
-    font-weight: 400;
-    padding: 20px 0px;
-    text-transform: none; }
+    justify-content: space-around;
+    padding: 30px 0px; }
+    #donation-page .donation-page-content-container .donation-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    #donation-page .donation-page-content-container h2 {
+      font-size: 1.2rem;
+      line-height: 1.25rem;
+      font-weight: 400;
+      text-transform: none; }
+    #donation-page .donation-page-content-container .faq-container {
+      padding: 20px;
+      /* button used to open the question */
+      /* add a background to the question if it's clicked on & when you move the mouse over it */
+      /* style the accordion panel; hidden by default */ }
+      #donation-page .donation-page-content-container .faq-container .accordion {
+        background: #a9cf38;
+        color: #003952;
+        cursor: pointer;
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s; }
+      #donation-page .donation-page-content-container .faq-container .active,
+      #donation-page .donation-page-content-container .faq-container .accordion:hover {
+        background: #fff;
+        color: #003952; }
+      #donation-page .donation-page-content-container .faq-container .accordion:after {
+        content: '\02795';
+        font-size: 13px;
+        color: #003952 !important;
+        float: right;
+        margin-left: 5px; }
+      #donation-page .donation-page-content-container .faq-container .active:after {
+        content: "\2796";
+        color: #003952 !important; }
+      #donation-page .donation-page-content-container .faq-container .panel {
+        padding: 0 18px;
+        background: #fff;
+        color: #003952;
+        display: none;
+        overflow: hidden; }
 
 #donation-page-gift-impact {
   background: #fff;
@@ -734,7 +773,7 @@ footer {
         padding-bottom: 25px; }
         #donation-page-gift-impact .donation-page-contribution-graph aside h3 span {
           display: block;
-          font-size: 1.5rem;
+          font-size: 1.75rem;
           line-height: 1.75rem; }
   #donation-page-gift-impact h2 {
     color: #003952;
@@ -778,6 +817,50 @@ footer {
         #donation-page-gift-impact article .button-container .rounded-green-button:hover {
           background: #00b5c2;
           transition: 1s background; }
+
+/* Frequently Asked Questions */
+#donation-page-faq h1 {
+  background: #a9cf38;
+  color: #003952;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto;
+  width: 100%; }
+  #donation-page-faq h1 span {
+    color: #003952; }
+#donation-page-faq .faq-and-giving-options {
+  display: flex;
+  flex-direction: column; }
+#donation-page-faq .donate-page-giving-options {
+  background: #fff;
+  color: #003952; }
+  #donation-page-faq .donate-page-giving-options h2 {
+    background: #003952;
+    color: #fff;
+    font-weight: 700;
+    padding: 10px 0px; }
+    #donation-page-faq .donate-page-giving-options h2 span {
+      color: #a9cf38; }
+  #donation-page-faq .donate-page-giving-options p {
+    text-align: justify; }
+  #donation-page-faq .donate-page-giving-options i {
+    background: #003952;
+    color: #a9cf38;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 100px; }
+  #donation-page-faq .donate-page-giving-options .button-container {
+    background: #003952;
+    padding: 20px; }
+    #donation-page-faq .donate-page-giving-options .button-container .rounded-blue-button {
+      background: #00b5c2;
+      border-radius: 5px;
+      padding: 5px 15px; }
+      #donation-page-faq .donate-page-giving-options .button-container .rounded-blue-button:hover {
+        background: #a9cf38;
+        transition: 1s background; }
 
 #donation-page-cta h1 {
   background: #a9cf38;
@@ -1509,6 +1592,18 @@ footer {
       font-size: 3rem;
       line-height: 3rem;
       padding-top: 200px; }
+  #donation-page .donation-page-content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; }
+    #donation-page .donation-page-content-container .donation-container {
+      width: 400px !important; }
+    #donation-page .donation-page-content-container .faq-and-desc h2 {
+      padding-bottom: 20px; }
+    #donation-page .donation-page-content-container .faq-and-desc h1 {
+      background: none;
+      padding: 10px 0px; }
   #donation-page .content-wrapper h2 {
     font-size: 2rem;
     line-height: 2rem;
@@ -1523,17 +1618,16 @@ footer {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
-    align-items: flex-start;
-    height: auto; }
-  #donation-page-gift-impact aside.contribution-programs {
-    width: 63% !important;
-    height: 600px !important; }
-  #donation-page-gift-impact aside.contribution-fundraising {
-    width: 18.5% !important;
-    height: 600px !important; }
-  #donation-page-gift-impact aside.contribution-admin {
-    width: 18.5% !important;
-    height: 600px !important; }
+    align-items: flex-start; }
+    #donation-page-gift-impact .donation-page-contribution-graph aside.contribution-programs {
+      width: 55% !important;
+      height: 600px !important; }
+    #donation-page-gift-impact .donation-page-contribution-graph aside.contribution-fundraising {
+      width: 22.5% !important;
+      height: 600px !important; }
+    #donation-page-gift-impact .donation-page-contribution-graph aside.contribution-admin {
+      width: 22.5% !important;
+      height: 600px !important; }
 
   /* Other Ways to Donate Page */
   #other-ways-page .other-ways-span {
