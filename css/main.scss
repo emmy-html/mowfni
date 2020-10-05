@@ -1689,14 +1689,25 @@ footer {
         .about-mow-page-programs-span {
           justify-content: stretch;
           align-items: stretch;
+          h2 {
+            font-size: 2rem;
+            line-height: 2rem;
+            span {
+              display: block;
+            }
+          }
+          p {
+            padding: 0px 100px;
+          }
           &:nth-of-type(1) {
-            flex-basis: 25%;
+            flex-basis: 50%;
           }
           &:nth-of-type(2) {
-            flex-basis: 30%;
+            flex-basis: 50%;
           }
           &:nth-of-type(3) {
-            flex-basis: 45%;
+            background: #fff;
+            flex-basis: 100%;
           }
         }
       }
@@ -1709,6 +1720,16 @@ footer {
       flex-direction: row;
       aside {
         width: 50%;
+        h2 {
+          font-size: 2rem;
+          line-height: 2rem;
+          span {
+            display: block;
+          }
+        }
+        p {
+          padding: 0px 100px;
+        }
       }
     }
   }
