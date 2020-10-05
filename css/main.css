@@ -1539,7 +1539,7 @@ footer {
       border-radius: 200px;
       margin: 0 auto; }
     #about-mow-page-volunteer .about-mow-page-volunteer-container aside {
-      padding: 20px 0px; }
+      padding: 30px 0px; }
       #about-mow-page-volunteer .about-mow-page-volunteer-container aside:nth-of-type(1) {
         background: #a9cf38; }
       #about-mow-page-volunteer .about-mow-page-volunteer-container aside:nth-of-type(2) {
@@ -1834,53 +1834,68 @@ footer {
       padding: 20px 0px; }
 
   /* About Meals On Wheels page */
-  #about-mow-page-locations .about-mow-page-locations-content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around; }
-    #about-mow-page-locations .about-mow-page-locations-content .map {
-      width: 55%;
-      height: 600px; }
-    #about-mow-page-locations .about-mow-page-locations-content .map-locations {
-      height: 600px;
-      overflow: scroll;
-      width: 45%; }
-      #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; }
-        #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside {
-          width: 100%; }
-          #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper {
-            display: flex;
-            flex-direction: row;
-            align-items: flex-start;
-            justify-content: space-between;
-            text-align: center; }
-            #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper div:nth-of-type(1) {
-              width: 45%; }
-            #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper div:nth-of-type(2) {
-              width: 25%; }
-            #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper div:nth-of-type(3) {
-              width: 25%; }
-    #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs {
+  #about-mow-page-locations {
+    /* width */
+    /* Track */
+    /* Handle */
+    /* Handle on hover */ }
+    #about-mow-page-locations ::-webkit-scrollbar {
+      width: 10px; }
+    #about-mow-page-locations ::-webkit-scrollbar-track {
+      background: #f1f1f1; }
+    #about-mow-page-locations ::-webkit-scrollbar-thumb {
+      background: #003952; }
+    #about-mow-page-locations ::-webkit-scrollbar-thumb:hover {
+      background: #003952; }
+    #about-mow-page-locations .about-mow-page-locations-content {
       display: flex;
-      flex-flow: row wrap; }
-      #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span {
-        justify-content: stretch;
-        align-items: stretch; }
-        #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(1) {
-          flex-basis: 25%; }
-        #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(2) {
-          flex-basis: 20%; }
-        #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(3) {
-          flex-basis: 55%; }
+      flex-flow: row wrap;
+      justify-content: space-around; }
+      #about-mow-page-locations .about-mow-page-locations-content .map {
+        width: 55%;
+        height: 600px; }
+      #about-mow-page-locations .about-mow-page-locations-content .map-locations {
+        height: 600px;
+        overflow: scroll;
+        width: 45%; }
+        #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside {
+            width: 100%; }
+            #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper {
+              display: flex;
+              flex-direction: row;
+              align-items: flex-start;
+              justify-content: space-between;
+              text-align: center; }
+              #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper div:nth-of-type(1) {
+                width: 45%; }
+              #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper div:nth-of-type(2) {
+                width: 25%; }
+              #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper div:nth-of-type(3) {
+                width: 25%; }
+      #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs {
+        display: flex;
+        flex-flow: row wrap; }
+        #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span {
+          justify-content: stretch;
+          align-items: stretch; }
+          #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(1) {
+            flex-basis: 25%; }
+          #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(2) {
+            flex-basis: 20%; }
+          #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(3) {
+            flex-basis: 55%; }
 
   /* About MOW Page Volunteer Section */
   #about-mow-page-volunteer .about-mow-page-volunteer-container {
     display: flex;
-    flex-direction: row; } }
+    flex-direction: row; }
+    #about-mow-page-volunteer .about-mow-page-volunteer-container aside {
+      width: 50%; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

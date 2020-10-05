@@ -112,6 +112,7 @@ textarea {
 @import "variables";
 @import "mixins";
 /* Universal Styles */ 
+
 body {
   background: $dark-blue;
   color: #fff;
@@ -1237,7 +1238,7 @@ footer {
     display: flex;
     flex-direction: column;
     aside {
-      padding: 20px 0px;
+      padding: 30px 0px;
       &:nth-of-type(1) {
         background: $lime-green;
       }
@@ -1627,6 +1628,22 @@ footer {
   }
   /* About Meals On Wheels page */
   #about-mow-page-locations {
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: $dark-blue;
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: $dark-blue;
+    }
     .about-mow-page-locations-content {
       display: flex;
       flex-flow: row wrap;
@@ -1689,6 +1706,9 @@ footer {
     .about-mow-page-volunteer-container {
       display: flex;
       flex-direction: row;
+      aside {
+        width: 50%;
+      }
     }
   }
 }
