@@ -138,12 +138,12 @@
 @mixin page-hero {
     h1 {
         background: none;
-        color: $dark-blue;
+        color: #fff;
         font-size: 2rem;
         line-height: 2rem;
         padding-top: 175px;
         span {
-          color: $dark-blue;
+          color: #fff;
           display: block;
         }
       }

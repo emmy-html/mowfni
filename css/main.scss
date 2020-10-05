@@ -233,15 +233,15 @@ main {
 }
 /* COVID CTA */ 
 #cta {
-  background: $purple;
-  .content-wrapper {
-    padding: 25px 0px;
-  }
+  @include section-header;
+  background: #fff;
+  color: $dark-blue;
   h1 {
-    color: #fff;
+    background: $dark-blue;
+    border-bottom: 20px solid $purple;
+    border-top: 20px solid $purple;
   }
   p {
-    color: $dark-blue;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.45rem;
@@ -545,7 +545,6 @@ footer {
     .content-wrapper {
       display: flex;
       flex-flow: column wrap;
-      width: 90%;
       article {
         display: flex;
         flex-flow: column wrap;
@@ -652,12 +651,12 @@ footer {
     background-size: cover;
     h1 {
       background: none;
-      color: $dark-blue;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px;
       span {
-        color: $dark-blue;
+        color: #fff;
         display: block;
       }
     }
@@ -1019,7 +1018,7 @@ footer {
   padding-top: 75px;
   .volunteer-page-span {
     @include page-hero;
-    background: center no-repeat url('../img/volunteer-hero.png');
+    background: top no-repeat url('../img/volunteer-hero.png');
     background-size: cover;
   }
   .content-wrapper {
@@ -1068,7 +1067,7 @@ footer {
   padding-top: 75px;
   .volunteer-page-span {
     @include page-hero;
-    background: url('../img/volunteer-hero.png');
+    background: center no-repeat url('../img/volunteer-hero.png');
     background-size: 100%;
   }
 }
@@ -1237,7 +1236,7 @@ footer {
   /* COVID CTA */ 
   #cta {
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
     p {
       font-size: 1.89rem;

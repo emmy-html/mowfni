@@ -218,13 +218,19 @@ main a:visited {
 
 /* COVID CTA */
 #cta {
-  background: #B089EC; }
-  #cta .content-wrapper {
-    padding: 25px 0px; }
+  background: #fff;
+  color: #003952; }
   #cta h1 {
-    color: #fff; }
+    color: #fff;
+    padding: 20px 0px;
+    line-height: 1.75rem; }
+    #cta h1 span {
+      color: #a9cf38; }
+  #cta h1 {
+    background: #003952;
+    border-bottom: 20px solid #B089EC;
+    border-top: 20px solid #B089EC; }
   #cta p {
-    color: #003952;
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.45rem;
@@ -538,8 +544,7 @@ footer {
     color: #003952; }
     #board-of-directors-page .board-of-directors-content .content-wrapper {
       display: flex;
-      flex-flow: column wrap;
-      width: 90%; }
+      flex-flow: column wrap; }
       #board-of-directors-page .board-of-directors-content .content-wrapper article {
         display: flex;
         flex-flow: column wrap;
@@ -665,12 +670,12 @@ footer {
     background-size: cover; }
     #donation-page .donation-span h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #donation-page .donation-span h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
   #donation-page .donation-page-content-container {
     display: flex;
@@ -937,12 +942,12 @@ footer {
     height: 300px; }
     #other-ways-page .other-ways-span h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #other-ways-page .other-ways-span h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
     @media screen and (min-width: 992px) {
       #other-ways-page .other-ways-span h1 {
@@ -1004,12 +1009,12 @@ footer {
     background-size: cover; }
     #current-events-page .current-events-page-span h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #current-events-page .current-events-page-span h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
     @media screen and (min-width: 992px) {
       #current-events-page .current-events-page-span h1 {
@@ -1035,12 +1040,12 @@ footer {
     background-size: cover; }
     #past-events-page .past-events-page-span h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #past-events-page .past-events-page-span h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
     @media screen and (min-width: 992px) {
       #past-events-page .past-events-page-span h1 {
@@ -1124,12 +1129,12 @@ footer {
     background-size: cover; }
     #single-event-page-hero .single-event-span h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #single-event-page-hero .single-event-span h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
     @media screen and (min-width: 992px) {
       #single-event-page-hero .single-event-span h1 {
@@ -1183,16 +1188,16 @@ footer {
     #volunteer-page-hero h1 span {
       color: #003952; }
   #volunteer-page-hero .volunteer-page-span {
-    background: center no-repeat url("../img/volunteer-hero.png");
+    background: top no-repeat url("../img/volunteer-hero.png");
     background-size: cover; }
     #volunteer-page-hero .volunteer-page-span h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #volunteer-page-hero .volunteer-page-span h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
     @media screen and (min-width: 992px) {
       #volunteer-page-hero .volunteer-page-span h1 {
@@ -1294,16 +1299,16 @@ footer {
     #get-involved-page-hero h1 span {
       color: #003952; }
   #get-involved-page-hero .volunteer-page-span {
-    background: url("../img/volunteer-hero.png");
+    background: center no-repeat url("../img/volunteer-hero.png");
     background-size: 100%; }
     #get-involved-page-hero .volunteer-page-span h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #get-involved-page-hero .volunteer-page-span h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
     @media screen and (min-width: 992px) {
       #get-involved-page-hero .volunteer-page-span h1 {
@@ -1380,12 +1385,12 @@ footer {
     padding-top: 75px; }
     #about-mow-page-hero .about-mow-page-hero-content h1 {
       background: none;
-      color: #003952;
+      color: #fff;
       font-size: 2rem;
       line-height: 2rem;
       padding-top: 175px; }
       #about-mow-page-hero .about-mow-page-hero-content h1 span {
-        color: #003952;
+        color: #fff;
         display: block; }
     @media screen and (min-width: 992px) {
       #about-mow-page-hero .about-mow-page-hero-content h1 {
@@ -1477,7 +1482,7 @@ footer {
 
   /* COVID CTA */
   #cta h1 {
-    font-size: 4rem; }
+    font-size: 3rem; }
   #cta p {
     font-size: 1.89rem;
     line-height: 1.85rem;
