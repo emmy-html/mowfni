@@ -161,6 +161,7 @@
     font-weight: 700;
     font-size: 1.3rem;
     line-height: 1.3rem;
+    padding: 15px 0px;
     span {
       display: block;
     }
@@ -171,5 +172,19 @@
         display: inline-block;
       }
     }
+  }
+}
+@mixin fontawesome-icon {
+  i {
+    background: $dark-blue;
+    color: $lime-green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 200px;
+    margin: 0 auto;
   }
 }

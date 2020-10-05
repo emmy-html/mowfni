@@ -1424,23 +1424,43 @@ footer {
       color: #003952;
       font-weight: 700;
       font-size: 1.3rem;
-      line-height: 1.3rem; }
+      line-height: 1.3rem;
+      padding: 15px 0px; }
       #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs h2 span {
         display: block; }
     @media screen and (min-width: 992px) {
       #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs h2 span {
         display: inline-block; } }
+    #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs h1 {
+      background: #003952;
+      color: #fff; }
     #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span {
       background: #a9cf38;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 275px; }
+      width: 100%;
+      padding: 30px 0px; }
+      #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span i {
+        background: #003952;
+        color: #a9cf38;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        border-radius: 200px;
+        margin: 0 auto; }
       #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(even) {
         background: #00b5c2; }
-      #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span i {
-        color: #003952; }
+      #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span p {
+        margin: 0;
+        padding: 0px 20px;
+        text-align: justify; }
+  #about-mow-page-locations .about-mow-page-locations-content .map-locations p {
+    text-align: justify; }
   #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container {
     display: flex;
     flex-direction: column;
@@ -1459,7 +1479,7 @@ footer {
       #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside h3 {
         font-size: 1rem;
         text-transform: uppercase;
-        line-height: 1rem;
+        line-height: 1.25rem;
         margin: 0; }
         #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside h3 span {
           display: block;
@@ -1469,10 +1489,25 @@ footer {
       #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .pick-up-time {
         padding-bottom: 10px; }
       #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside p {
-        line-height: 1rem;
+        line-height: 1.25rem;
         margin: 0;
         padding-bottom: 10px;
         text-align: center; }
+
+/* About MOW Page Volunteer Section */
+#about-mow-page-volunteer h1 {
+  background: #a9cf38;
+  color: #003952;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto;
+  width: 100%; }
+  #about-mow-page-volunteer h1 span {
+    color: #003952; }
+#about-mow-page-volunteer h1 {
+  background: #003952;
+  color: #fff; }
 
 /* Large Tablets & Desktop Styles */
 @media screen and (min-width: 992px) {
@@ -1761,9 +1796,17 @@ footer {
             #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container aside .content-wrapper div:nth-of-type(3) {
               width: 25%; }
     #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs {
-      width: 100%; }
-      #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs p {
-        text-align: justify; } }
+      display: flex;
+      flex-flow: row wrap; }
+      #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span {
+        justify-content: stretch;
+        align-items: stretch; }
+        #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(1) {
+          flex-basis: 25%; }
+        #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(2) {
+          flex-basis: 20%; }
+        #about-mow-page-locations .about-mow-page-locations-content .about-mow-page-programs .about-mow-page-programs-span:nth-of-type(3) {
+          flex-basis: 55%; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

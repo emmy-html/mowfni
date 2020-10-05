@@ -1147,24 +1147,35 @@ footer {
     }
     .about-mow-page-programs {
       @include secondary-page-header;
+      h1 {
+        background: $dark-blue;
+        color: #fff;
+      }
         display: flex;
         flex-direction: column;
         .about-mow-page-programs-span {
+          @include fontawesome-icon;
           background: $lime-green;
           display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          height: 275px;
+          width: 100%;
+          padding: 30px 0px;
           &:nth-of-type(even) {
             background: $light-blue;
           }
-          i {
-            color: $dark-blue;
+          p {
+            margin: 0;
+            padding: 0px 20px;
+            text-align: justify;
           }
         }   
     }
     .map-locations {
+      p {
+        text-align: justify;
+      }
       .map-locations-container {
         display: flex;
         flex-direction: column;
@@ -1185,7 +1196,7 @@ footer {
           h3 {
             font-size: 1rem;
             text-transform: uppercase;
-            line-height: 1rem;
+            line-height: 1.25rem;
             margin: 0;
             span {
               display: block;
@@ -1198,7 +1209,7 @@ footer {
             padding-bottom: 10px;
           }
           p {
-            line-height: 1rem;
+            line-height: 1.25rem;
             margin: 0;
             padding-bottom: 10px;
             text-align: center;
@@ -1207,7 +1218,14 @@ footer {
       }
     }
   }
-
+}
+/* About MOW Page Volunteer Section */ 
+#about-mow-page-volunteer {
+  @include page-header;
+  h1 {
+    background: $dark-blue;
+    color: #fff;
+  }
 }
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
@@ -1608,9 +1626,20 @@ footer {
         }
       }
       .about-mow-page-programs {
-        width: 100%;
-        p {
-          text-align: justify;
+        display: flex;
+        flex-flow: row wrap;
+        .about-mow-page-programs-span {
+          justify-content: stretch;
+          align-items: stretch;
+          &:nth-of-type(1) {
+            flex-basis: 25%;
+          }
+          &:nth-of-type(2) {
+            flex-basis: 20%;
+          }
+          &:nth-of-type(3) {
+            flex-basis: 55%;
+          }
         }
       }
     }
