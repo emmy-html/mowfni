@@ -1310,6 +1310,25 @@ footer {
     background-size: 100%;
   }
 }
+#get-involved-page-other-ways {
+  @include page-header;
+  @include other-ways-tabs;
+  @include fontawesome-icon;
+  h2 {
+    padding: 20px;
+    font-weight: 700;
+  }
+  h3 {
+    padding-top: 20px;
+  }
+  .button-container {
+    @include button-container;
+    margin: 20px;
+  }
+  .rounded-blue-button {
+    @include body-blue-button;
+  }
+}
 #get-involved-page-cta {
   @include page-header;
   background: #fff;

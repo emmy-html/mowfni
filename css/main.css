@@ -1627,6 +1627,108 @@ footer {
         line-height: 3rem;
         padding-top: 200px; } }
 
+#get-involved-page-other-ways h1 {
+  background: #a9cf38;
+  color: #003952;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 20px 0px;
+  margin: 0 auto;
+  width: 100%; }
+  #get-involved-page-other-ways h1 span {
+    color: #003952; }
+#get-involved-page-other-ways .other-ways-tabs {
+  display: flex;
+  flex-direction: column;
+  /* Style the tab */
+  /* Style the buttons that are used to open the tab content */
+  /* Change background color of buttons on hover */
+  /* Create an active/current "tab button" class */
+  /* Style the tab content */ }
+  #get-involved-page-other-ways .other-ways-tabs .tab {
+    background: #00b5c2;
+    width: 100%; }
+  #get-involved-page-other-ways .other-ways-tabs .tab button {
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    background-color: #00b5c2;
+    color: #003952;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 10px 0px; }
+  #get-involved-page-other-ways .other-ways-tabs .tab button:hover {
+    background-color: #003952;
+    color: #fff; }
+  #get-involved-page-other-ways .other-ways-tabs .tab button.active {
+    background-color: #a9cf38; }
+    #get-involved-page-other-ways .other-ways-tabs .tab button.active:hover {
+      background: #003952;
+      transition: .3s background; }
+  #get-involved-page-other-ways .other-ways-tabs .tabcontent {
+    background: #a9cf38;
+    color: #003952;
+    display: none;
+    width: 100%;
+    padding: 20px 0px; }
+@media screen and (min-width: 992px) {
+  #get-involved-page-other-ways .other-ways-tabs {
+    display: flex;
+    flex-direction: row; }
+    #get-involved-page-other-ways .other-ways-tabs .tab-button-container {
+      width: 30%;
+      background: #00b5c2; }
+    #get-involved-page-other-ways .other-ways-tabs .tab-content-container {
+      width: 70%; }
+    #get-involved-page-other-ways .other-ways-tabs .tab, #get-involved-page-other-ways .other-ways-tabs .tabcontent {
+      height: 300px; }
+    #get-involved-page-other-ways .other-ways-tabs .tabcontent {
+      padding-top: 30px; } }
+#get-involved-page-other-ways i {
+  background: #003952;
+  color: #a9cf38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border-radius: 200px;
+  margin: 0 auto; }
+#get-involved-page-other-ways h2 {
+  padding: 20px;
+  font-weight: 700; }
+#get-involved-page-other-ways h3 {
+  padding-top: 20px; }
+#get-involved-page-other-ways .button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 20px; }
+  #get-involved-page-other-ways .button-container a:link,
+  #get-involved-page-other-ways .button-container a:visited {
+    color: #003952;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase; }
+    #get-involved-page-other-ways .button-container a:link:hover,
+    #get-involved-page-other-ways .button-container a:visited:hover {
+      border-bottom: none; }
+#get-involved-page-other-ways .rounded-blue-button {
+  background: #00b5c2;
+  border-radius: 5px;
+  padding: 5px 15px; }
+  #get-involved-page-other-ways .rounded-blue-button:hover {
+    background: #a9cf38;
+    transition: 1s background; }
+
 #get-involved-page-cta {
   background: #fff;
   color: #003952; }
