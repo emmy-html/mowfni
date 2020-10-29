@@ -1074,10 +1074,50 @@ footer {
   #other-ways-page article p {
     margin: 0px 20px; }
   #other-ways-page article.other-ways-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background: #fff;
     color: #003952;
-    padding: 20px 0px;
-    text-align: justify; }
+    text-align: justify;
+    padding-bottom: 20px; }
+    #other-ways-page article.other-ways-desc p:first-of-type {
+      padding-top: 20px; }
+    #other-ways-page article.other-ways-desc .multi-button-container {
+      display: flex;
+      flex-direction: column; }
+      #other-ways-page article.other-ways-desc .multi-button-container .button-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px; }
+        #other-ways-page article.other-ways-desc .multi-button-container .button-container a:link,
+        #other-ways-page article.other-ways-desc .multi-button-container .button-container a:visited {
+          color: #003952;
+          font-family: "Poppins", sans-serif;
+          font-weight: 700;
+          text-decoration: none;
+          text-transform: uppercase; }
+          #other-ways-page article.other-ways-desc .multi-button-container .button-container a:link:hover,
+          #other-ways-page article.other-ways-desc .multi-button-container .button-container a:visited:hover {
+            border-bottom: none; }
+        #other-ways-page article.other-ways-desc .multi-button-container .button-container .rounded-green-button {
+          background: #a9cf38;
+          border-radius: 5px;
+          border-bottom: none;
+          padding: 5px 15px; }
+          #other-ways-page article.other-ways-desc .multi-button-container .button-container .rounded-green-button:hover {
+            background: #00b5c2;
+            transition: 1s background; }
+        #other-ways-page article.other-ways-desc .multi-button-container .button-container .rounded-blue-button {
+          background: #00b5c2;
+          border-radius: 5px;
+          padding: 5px 15px; }
+          #other-ways-page article.other-ways-desc .multi-button-container .button-container .rounded-blue-button:hover {
+            background: #a9cf38;
+            transition: 1s background; }
   #other-ways-page .other-ways-span {
     background: center no-repeat url("../img/filler-square-04.png");
     background-size: cover;
@@ -1117,6 +1157,10 @@ footer {
         margin: 0 auto; }
       #other-ways-page .other-ways-content article p {
         text-align: justify; }
+  #other-ways-page .other-ways-disclaimer {
+    background: #fff;
+    color: #003952;
+    padding: 20px 0px; }
 
 /* Current Events Page */
 #current-events-page {
@@ -2374,6 +2418,23 @@ footer {
         margin: 0; }
 
   /* Other Ways to Donate Page */
+  #other-ways-page article.other-ways-desc {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 275px;
+    padding: 0px; }
+    #other-ways-page article.other-ways-desc p:first-of-type {
+      padding: 0px; }
+    #other-ways-page article.other-ways-desc .other-ways-span {
+      width: 30%;
+      height: 275px; }
+      #other-ways-page article.other-ways-desc .other-ways-span h1 {
+        display: none; }
+    #other-ways-page article.other-ways-desc .other-ways-desc-content {
+      width: 50%; }
+    #other-ways-page article.other-ways-desc .multi-button-container {
+      width: 20%;
+      padding: 0px 20px; }
   #other-ways-page .other-ways-content {
     display: flex;
     flex-flow: row wrap;
@@ -2382,6 +2443,20 @@ footer {
     #other-ways-page .other-ways-content article {
       width: 30%;
       padding: 50px 0px; }
+  #other-ways-page .other-ways-tabs {
+    display: flex;
+    flex-direction: column; }
+    #other-ways-page .other-ways-tabs .tab-button-container {
+      width: 100%; }
+      #other-ways-page .other-ways-tabs .tab-button-container .tab {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 50px; }
+    #other-ways-page .other-ways-tabs .tab-content-container {
+      width: 100%;
+      height: 300px;
+      overflow: hidden; }
 
   /* Current Events Page */
   #current-events-page .current-events-page-span {
