@@ -680,18 +680,48 @@ footer {
   #donation-page .donation-page-content-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
     padding: 30px 0px; }
+    #donation-page .donation-page-content-container a:link,
+    #donation-page .donation-page-content-container a:visited {
+      color: #003952;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      text-decoration: none;
+      text-transform: uppercase; }
+      #donation-page .donation-page-content-container a:link:hover,
+      #donation-page .donation-page-content-container a:visited:hover {
+        border-bottom: none; }
+    #donation-page .donation-page-content-container .button-container {
+      margin-bottom: 20px; }
+      #donation-page .donation-page-content-container .button-container .rounded-blue-button {
+        background: #00b5c2;
+        border-radius: 5px;
+        padding: 5px 15px; }
+        #donation-page .donation-page-content-container .button-container .rounded-blue-button:hover {
+          background: #a9cf38;
+          transition: 1s background; }
+      #donation-page .donation-page-content-container .button-container .rounded-green-button {
+        background: #a9cf38;
+        border-radius: 5px;
+        border-bottom: none;
+        padding: 5px 15px; }
+        #donation-page .donation-page-content-container .button-container .rounded-green-button:hover {
+          background: #00b5c2;
+          transition: 1s background; }
     #donation-page .donation-page-content-container .donation-container {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center; }
     #donation-page .donation-page-content-container h2 {
-      font-size: 1.2rem;
-      line-height: 1.25rem;
       font-weight: 400;
-      text-transform: none; }
+      text-transform: none;
+      padding-bottom: 20px; }
     #donation-page .donation-page-content-container .faq-container {
       padding: 20px;
       /* button used to open the question */
@@ -723,11 +753,15 @@ footer {
         content: "\2796";
         color: #003952 !important; }
       #donation-page .donation-page-content-container .faq-container .panel {
-        padding: 0 18px;
         background: #fff;
+        padding: 0 18px;
         color: #003952;
         display: none;
         overflow: hidden; }
+    #donation-page .donation-page-content-container .employee-match .button-container {
+      padding: 0px 20px; }
+      #donation-page .donation-page-content-container .employee-match .button-container .rounded-green-button:hover {
+        background: #fff; }
 
 #donation-page-gift-impact {
   background: #fff;
@@ -2280,14 +2314,14 @@ footer {
       width: 250px; }
 
   /* Board of Directors Page */
-  #board-of-directors-page .board-of-directors-content {
+  #board-of-directors-page .board-of-directors-container .board-of-directors-content {
     padding: 50px 0px; }
-    #board-of-directors-page .board-of-directors-content .content-wrapper {
+    #board-of-directors-page .board-of-directors-container .board-of-directors-content .content-wrapper {
       display: flex;
       flex-flow: row wrap;
       justify-content: center;
       align-items: center; }
-      #board-of-directors-page .board-of-directors-content .content-wrapper article {
+      #board-of-directors-page .board-of-directors-container .board-of-directors-content .content-wrapper article {
         width: 33%; }
 
   /* Resources Page */
@@ -2323,11 +2357,13 @@ footer {
     align-items: flex-start; }
     #donation-page .donation-page-content-container .donation-container {
       width: 400px !important; }
-    #donation-page .donation-page-content-container .faq-and-desc h2 {
-      padding-bottom: 20px; }
-    #donation-page .donation-page-content-container .faq-and-desc h1 {
-      background: none;
-      padding: 10px 0px; }
+    #donation-page .donation-page-content-container .faq-and-desc {
+      width: 100%; }
+      #donation-page .donation-page-content-container .faq-and-desc h2 {
+        padding-bottom: 20px; }
+      #donation-page .donation-page-content-container .faq-and-desc h1 {
+        background: none;
+        padding: 10px 0px; }
   #donation-page .content-wrapper h2 {
     font-size: 2rem;
     line-height: 2rem;

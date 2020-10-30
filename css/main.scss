@@ -663,6 +663,16 @@ footer {
     }
   }
   .donation-page-content-container {
+    @include button-container;
+    .button-container {
+      margin-bottom: 20px;
+      .rounded-blue-button {
+        @include body-blue-button;
+      }
+      .rounded-green-button {
+        @include body-green-button;
+      }
+    }
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -674,10 +684,9 @@ footer {
       align-items: center;
     }
     h2 {
-      font-size: 1.2rem;
-      line-height: 1.25rem;
       font-weight: 400;
       text-transform: none;
+      padding-bottom: 20px;
     }
     .faq-container {
       padding: 20px;
@@ -714,11 +723,21 @@ footer {
       }
       /* style the accordion panel; hidden by default */
       .panel {
-        padding: 0 18px;
         background: #fff;
+        padding: 0 18px;
         color: $dark-blue;
         display: none;
         overflow: hidden;
+      }
+    }
+    .employee-match {
+      .button-container {
+        padding: 0px 20px;
+        .rounded-green-button {
+          &:hover {
+            background: #fff;
+          }
+        }
       }
     }
   }
@@ -849,6 +868,7 @@ footer {
       }
       /* style the accordion panel; hidden by default */
       .panel {
+        
         padding: 0 18px;
         background: #fff;
         color: $dark-blue;
@@ -1830,15 +1850,17 @@ footer {
   }
   /* Board of Directors Page */ 
   #board-of-directors-page {
-    .board-of-directors-content {
-      padding: 50px 0px;
-      .content-wrapper {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: center;
-        align-items: center;
-        article {
-          width: 33%;
+    .board-of-directors-container {
+      .board-of-directors-content {
+        padding: 50px 0px;
+        .content-wrapper {
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          article {
+            width: 33%;
+          }
         }
       }
     }
@@ -1892,6 +1914,7 @@ footer {
         width: 400px !important;
       }
       .faq-and-desc {
+        width: 100%;
         h2 {
           padding-bottom: 20px;
         }
