@@ -2314,15 +2314,27 @@ footer {
       width: 250px; }
 
   /* Board of Directors Page */
-  #board-of-directors-page .board-of-directors-container .board-of-directors-content {
-    padding: 50px 0px; }
-    #board-of-directors-page .board-of-directors-container .board-of-directors-content .content-wrapper {
-      display: flex;
-      flex-flow: row wrap;
-      justify-content: center;
-      align-items: center; }
-      #board-of-directors-page .board-of-directors-container .board-of-directors-content .content-wrapper article {
-        width: 33%; }
+  #board-of-directors-page .board-of-directors-container {
+    background: #00b5c2;
+    display: flex;
+    flex-direction: row; }
+    #board-of-directors-page .board-of-directors-container .button-container {
+      background: #003952;
+      line-height: 1.25rem;
+      margin: 0px;
+      margin-top: 100px;
+      padding: 20px;
+      width: 280px;
+      height: 75px; }
+    #board-of-directors-page .board-of-directors-container .board-of-directors-content {
+      padding: 50px 0px; }
+      #board-of-directors-page .board-of-directors-container .board-of-directors-content .content-wrapper {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center; }
+        #board-of-directors-page .board-of-directors-container .board-of-directors-content .content-wrapper article {
+          width: 33%; }
 
   /* Resources Page */
   #resources-page .resources-page-content .content-wrapper {

@@ -1851,6 +1851,18 @@ footer {
   /* Board of Directors Page */ 
   #board-of-directors-page {
     .board-of-directors-container {
+      background: $light-blue;
+      display: flex;
+      flex-direction: row;
+      .button-container {
+        background: $dark-blue;
+        line-height: 1.25rem;
+        margin: 0px;
+        margin-top: 100px;
+        padding: 20px;
+        width: 280px;
+        height: 75px;
+      }
       .board-of-directors-content {
         padding: 50px 0px;
         .content-wrapper {
