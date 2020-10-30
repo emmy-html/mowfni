@@ -112,7 +112,27 @@ textarea {
 @import "variables";
 @import "mixins";
 /* Universal Styles */ 
+/* scrollbar */ 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: $dark-blue;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $lime-green;
+  height: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
 body {
   background: $dark-blue;
   color: #fff;
@@ -174,6 +194,7 @@ main {
     margin-bottom: 20px;
   }
 }
+
 /* Newsletter */ 
 #newsletter {
   .newsletter-container {
@@ -181,7 +202,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 25px 0px;
+    padding: 10px 0px;
     .content-wrapper {
       margin-top: 0px;
       padding-top: 0px;

@@ -96,6 +96,24 @@ textarea {
   src: url(/fonts/Poppins-Regular.ttf); }
 /* Transitions */
 /* Universal Styles */
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 10px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #003952; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #a9cf38;
+  height: 40px; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff; }
+
 body {
   background: #003952;
   color: #fff;
@@ -176,7 +194,7 @@ main a:visited {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 25px 0px; }
+  padding: 10px 0px; }
   #newsletter .newsletter-container .content-wrapper {
     margin-top: 0px;
     padding-top: 0px; }
