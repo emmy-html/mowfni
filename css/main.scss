@@ -609,7 +609,38 @@ footer {
 /* Resources Page */ 
 #resources-page {
   @include page-header;
+  @include other-ways-tabs;
   padding-top: 75px;
+  .other-ways-tabs {
+    .tab button {
+      text-transform: none;
+    }
+    .tabcontent {
+      background: #fff;
+    }
+    .tab button.active {
+      background: #fff;
+    }
+    img.resource-no-background-logo {
+      background: $dark-blue;
+      margin-bottom: 10px;
+      padding: 20px;
+      width: 250px;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .other-ways-tabs {
+      .tab, .tabcontent {
+        height: 500px;
+      }
+    }
+  }
+  .resource-page-span {
+    background: center no-repeat url('../img/hero.png');
+    background-size: cover;
+    height: 350px;
+    @include page-hero;
+  }
   .resources-page-content {
     background: #fff;
     color: $dark-blue;

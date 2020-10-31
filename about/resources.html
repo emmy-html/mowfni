@@ -101,13 +101,27 @@
   <main>
       <section id="resources-page">
           <h1>Resources For <span>Older Adults</span></h1>
-          <div class="resources-page-content">
-            <div class="content-wrapper">
-                <article>
-                    <img src="../img/age-options-logo.png" alt="AgeOptions Logo" / class="resource-logo">
-                    <h3>AgeOptions</h3>
-                    <p>AgeOptions is a regional agency that helps older adults in suburban Cook County live their lives to the fullest by empowering them with information and resources. The group partners with a network of other nonprofit community-based organizations that serve older adults and their caregivers.</p>
-                    <p>AgeOptions can connect family members or an older adult with programs and services in your community, such as:</p>
+          <div class="resource-page-span">
+            <span>&nbsp;</span>
+          </div>
+          <aside class="other-ways-tabs">
+            <div class="tab-button-container">
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'option-one')" id="defaultTab">AgeGuide</button>
+                <button class="tablinks" onclick="openCity(event, 'option-two')">Agency on Aging</button>
+                <button class="tablinks" onclick="openCity(event, 'option-three')">Aging Care Connections</button>
+                <button class="tablinks" onclick="openCity(event, 'option-four')">AARP</button>
+                <button class="tablinks" onclick="openCity(event, 'option-five')">Illinois Department on Aging</button>
+                <button class="tablinks" onclick="openCity(event, 'option-six')">Social Security Administration</button>
+              </div>
+            </div>
+            <div class="tab-content-container">
+              <div id="option-one" class="tabcontent">
+                <div class="content-wrapper">
+                  <img src="../img/age-guide-logo.png" alt="AgeGuide Logo" / class="resource-logo">
+                    <h3>AgeGuide</h3>
+                    <p>AgeGuide is a regional agency that helps older adults in suburban Cook County live their lives to the fullest by empowering them with information and resources. The group partners with a network of other nonprofit community-based organizations that serve older adults and their caregivers.</p>
+                    <p>AgeGuide can connect family members or an older adult with programs and services in your community, such as:</p>
                         <ul>
                             <li>In-home care</li>
                             <li>Adult day services</li>
@@ -118,49 +132,58 @@
                             <li>Advocacy to protect the rights of older adults and assure that critical services are available</li>
                             <li>Employment and volunteering opportunities</li>
                         </ol>
-                    </article>
-                    <article>
-                        <img src="../img/agency-on-aging-logo.png" alt="Agency on Aging logo" />
-                        <h3>Agency on Aging</h3>
-                        <p>Over 520,900  older adults 60+ live in the Agency on Aging’s eight-county service area. The agency awards funds to local agencies in each county to provide vital Older Americans Act services.  The agency monitors these services to ensure that they are of high quality and that its funds are spent appropriately. Older Americans Act Services includes Meals on Wheels, Case Management, Information and Assistance, Family Caregiver Support, Legal Services, and more. NEIL is an effective link between local, state and national aging programs and services.</p>
-                        <ul>
-                            <li>Connects a vast network of senior providers to those who need them.</li>
-                            <li>Gives at-risk elders the opportunity to stay in their own homes with dignity and safety.</li>
-                            <li>Advocates and collaborates with communities to prepare seniors and families for aging.</li>
-                        </ul>
-                    </article>
                 </div>
+              </div>
+              
+              <div id="option-two" class="tabcontent">
+                <div class="content-wrapper">
+                  <img src="../img/agency-on-aging-logo.png" alt="Agency on Aging logo" />
+                  <h3>Agency on Aging</h3>
+                  <p>Over 520,900  older adults 60+ live in the Agency on Aging’s eight-county service area. The agency awards funds to local agencies in each county to provide vital Older Americans Act services.  The agency monitors these services to ensure that they are of high quality and that its funds are spent appropriately. Older Americans Act Services includes Meals on Wheels, Case Management, Information and Assistance, Family Caregiver Support, Legal Services, and more. NEIL is an effective link between local, state and national aging programs and services.</p>
+                  <ul>
+                      <li>Connects a vast network of senior providers to those who need them.</li>
+                      <li>Gives at-risk elders the opportunity to stay in their own homes with dignity and safety.</li>
+                      <li>Advocates and collaborates with communities to prepare seniors and families for aging.</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div id="option-three" class="tabcontent">
+                <div class="content-wrapper">
+                  <img src="../img/aging-care-connections-logo.png" alt="Aging Care Connections logo" />
+                  <h3>Aging Care Connections</h3>
+                  <p>From in-home services and support to opportunities for health and wellness, Southwest Suburban Center on Aging is meeting the needs of today’s older adults and their families within the community.</p>                 
+                </div>
+              </div>
+
+              <div id="option-four" class="tabcontent">
+                <div class="content-wrapper">
+                  <img src="../img/aarp-logo.png" class="resource-no-background-logo" alt="AARP logo" />
+                  <h3>AARP</h3>
+                  <p>The Illinois Department on Aging helps older people live independently in their own homes and communities. As the population ages, services and programs for older people must evolve as well because longevity means more when the quality of life is enhanced.</p>
+                </div>
+              </div>
+
+              <div id="option-five" class="tabcontent">
+                <div class="content-wrapper">
+                  <img src="../img/idoa-logo.png" class="resource-no-background-logo" alt="Illinois Department on Aging logo" />
+                  <h3>Illinois Department on Aging</h3>
+                  <p>The Illinois Department on Aging helps older people live independently in their own homes and communities. As the population ages, services and programs for older people must evolve as well because longevity means more when the quality of life is enhanced.</p>
+                  <h3>Illinois Senior Help Line</h3>
+                  <p>In addition to local information and assistance sites, the Senior HelpLine provides information on programs and services and links persons 60 years of age and older and their caregivers to local services.</p>
+                </div>
+              </div>
+
+              <div id="option-six" class="tabcontent">
+                <div class="content-wrapper">
+                  <img src="../img/ssa-logo.png" alt="Social Security Administration logo" class="resource-ssa" />
+                  <h3>Social Security Administration</h3>
+                  <p>The Illinois Department on Aging helps older people live independently in their own homes and communities. As the population ages, services and programs for older people must evolve as well because longevity means more when the quality of life is enhanced.</p>
+                </div>
+              </div>
             </div>
-        </section>
-        <section id="resources-additional-resources">
-            <h1>Additional
-                <span>Resources</span></h1>
-                <div class="resources-additional-content">
-                    <div class="content-wrapper">
-                        <article>
-                            <img src="../img/aging-care-connections-logo.png" alt="Aging Care Connections logo" />
-                            <h3>Aging Care Connections</h3>
-                            <p>From in-home services and support to opportunities for health and wellness, Southwest Suburban Center on Aging is meeting the needs of today’s older adults and their families within the community.</p>
-                        </article>
-                        <article>
-                            <img src="../img/aarp-logo.png" class="resource-no-background-logo" alt="AARP logo" />
-                            <h3>AARP</h3>
-                            <p>The Illinois Department on Aging helps older people live independently in their own homes and communities. As the population ages, services and programs for older people must evolve as well because longevity means more when the quality of life is enhanced.</p>
-                        </article>
-                        <article>
-                            <img src="../img/idoa-logo.png" class="resource-no-background-logo" alt="Illinois Department on Aging logo" />
-                            <h3>Illinois Department on Aging</h3>
-                            <p>The Illinois Department on Aging helps older people live independently in their own homes and communities. As the population ages, services and programs for older people must evolve as well because longevity means more when the quality of life is enhanced.</p>
-                            <h3>Illinois Senior Help Line</h3>
-                            <p>In addition to local information and assistance sites, the Senior HelpLine provides information on programs and services and links persons 60 years of age and older and their caregivers to local services.</p>
-                        </article>
-                        <article>
-                            <img src="../img/ssa-logo.png" alt="Social Security Administration logo" class="resource-ssa" />
-                            <h3>Social Security Administration</h3>
-                            <p>The Illinois Department on Aging helps older people live independently in their own homes and communities. As the population ages, services and programs for older people must evolve as well because longevity means more when the quality of life is enhanced.</p>
-                        </article>
-                    </div>     
-                </div>               
+          </aside>
+        </section>            
     </main>
     <footer>
       <article class="text-logo">
@@ -260,8 +283,8 @@
       </div>
     </footer>
 
-  <script src="js/main.js"></script>
-  <script src="js/plugins.js"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/plugins.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
