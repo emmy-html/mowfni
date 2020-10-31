@@ -611,6 +611,10 @@ footer {
 
 /* Resources Page */
 #resources-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
   padding-top: 75px; }
   #resources-page h1 {
     background: #a9cf38;
@@ -680,10 +684,31 @@ footer {
         height: 300px; }
       #resources-page .other-ways-tabs .tabcontent {
         padding-top: 30px; } }
+  #resources-page a:link,
+  #resources-page a:visited {
+    color: #003952;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase; }
+    #resources-page a:link:hover,
+    #resources-page a:visited:hover {
+      border-bottom: none; }
+  #resources-page .button-container {
+    margin: 15px 0px; }
+  #resources-page .rounded-green-button {
+    background: #a9cf38;
+    border-radius: 5px;
+    border-bottom: none;
+    padding: 5px 15px; }
+    #resources-page .rounded-green-button:hover {
+      background: #00b5c2;
+      transition: 1s background; }
   #resources-page .other-ways-tabs .tab button {
     text-transform: none; }
   #resources-page .other-ways-tabs .tabcontent {
-    background: #fff; }
+    background: #fff;
+    text-align: left; }
   #resources-page .other-ways-tabs .tab button.active {
     background: #fff; }
   #resources-page .other-ways-tabs img.resource-no-background-logo {
@@ -693,7 +718,7 @@ footer {
     width: 250px; }
   @media screen and (min-width: 992px) {
     #resources-page .other-ways-tabs .tab, #resources-page .other-ways-tabs .tabcontent {
-      height: 500px; } }
+      height: 550px; } }
   #resources-page .resource-page-span {
     background: center no-repeat url("../img/hero.png");
     background-size: cover;

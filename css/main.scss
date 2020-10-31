@@ -610,6 +610,13 @@ footer {
 #resources-page {
   @include page-header;
   @include other-ways-tabs;
+  @include button-container;
+  .button-container {
+    margin: 15px 0px;
+  }
+  .rounded-green-button {
+    @include body-green-button;
+  }
   padding-top: 75px;
   .other-ways-tabs {
     .tab button {
@@ -617,6 +624,7 @@ footer {
     }
     .tabcontent {
       background: #fff;
+      text-align: left;
     }
     .tab button.active {
       background: #fff;
@@ -631,7 +639,7 @@ footer {
   @media screen and (min-width: 992px) {
     .other-ways-tabs {
       .tab, .tabcontent {
-        height: 500px;
+        height: 550px;
       }
     }
   }
