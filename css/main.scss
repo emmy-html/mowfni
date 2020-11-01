@@ -1229,6 +1229,12 @@ footer {
       padding: 15px 0px;
     }
   }
+  .volunteer-page-hero-content {
+    .volunteer-page-slider-container {
+      width: 100%;
+      height: 500px;
+    }
+  }
   .volunteer-page-options {
     display: flex;
     flex-direction: column;
@@ -1238,8 +1244,6 @@ footer {
       display: flex;
       flex-direction: column;
       justify-content: center;
-      width: 100%;
-      height: 350px;
       h2 {
         font-size: 2rem;
         line-height: 2rem;
@@ -1249,12 +1253,14 @@ footer {
         line-height: 2rem;
       }
       &:nth-of-type(1) {
-        background: center no-repeat url('../img/filler-square-01.png');
-        background-size: cover;
+        background: $light-blue;
+        width: 100%;
+        height: 200px;
       }
       &:nth-of-type(2) {
-        background: center no-repeat url('../img/filler-square-03.png');
-        background-size: cover;
+        background: $lime-green;
+        width: 100%;
+        height: 200px;
       }
       a:link,
       a:visited {
@@ -2173,6 +2179,13 @@ footer {
   }
   /* Volunteer Page */
   #volunteer-page-hero {
+    .volunteer-page-hero-content {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+    .volunteer-page-slider-container {
+      height: 500px;
+    }
     .button-container {
       .rounded-green-button {
         min-width: 400px;
@@ -2181,10 +2194,16 @@ footer {
     }
     .volunteer-page-options {
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
       article {
-        width: 50%;
-        height: 450px;
+        &:nth-of-type(1) {
+          width: 100%;
+          height: 250px;
+        }
+        &:nth-of-type(2) {
+          width: 100%;
+          height: 250px;
+        }
       }
     }
   }

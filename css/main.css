@@ -1556,6 +1556,9 @@ footer {
     text-align: justify;
     margin: 0;
     padding: 15px 0px; }
+  #volunteer-page-hero .volunteer-page-hero-content .volunteer-page-slider-container {
+    width: 100%;
+    height: 500px; }
   #volunteer-page-hero .volunteer-page-options {
     display: flex;
     flex-direction: column;
@@ -1564,9 +1567,7 @@ footer {
     #volunteer-page-hero .volunteer-page-options article {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      width: 100%;
-      height: 350px; }
+      justify-content: center; }
       #volunteer-page-hero .volunteer-page-options article h2 {
         font-size: 2rem;
         line-height: 2rem; }
@@ -1574,11 +1575,13 @@ footer {
         font-size: 2rem;
         line-height: 2rem; }
       #volunteer-page-hero .volunteer-page-options article:nth-of-type(1) {
-        background: center no-repeat url("../img/filler-square-01.png");
-        background-size: cover; }
+        background: #00b5c2;
+        width: 100%;
+        height: 200px; }
       #volunteer-page-hero .volunteer-page-options article:nth-of-type(2) {
-        background: center no-repeat url("../img/filler-square-03.png");
-        background-size: cover; }
+        background: #a9cf38;
+        width: 100%;
+        height: 200px; }
       #volunteer-page-hero .volunteer-page-options article a:link,
       #volunteer-page-hero .volunteer-page-options article a:visited {
         text-decoration: none; }
@@ -2664,15 +2667,23 @@ footer {
       margin: 30px 0px; }
 
   /* Volunteer Page */
+  #volunteer-page-hero .volunteer-page-hero-content {
+    display: flex;
+    flex-flow: row nowrap; }
+  #volunteer-page-hero .volunteer-page-slider-container {
+    height: 500px; }
   #volunteer-page-hero .button-container .rounded-green-button {
     min-width: 400px;
     max-width: 410px; }
   #volunteer-page-hero .volunteer-page-options {
     display: flex;
-    flex-flow: row nowrap; }
-    #volunteer-page-hero .volunteer-page-options article {
-      width: 50%;
-      height: 450px; }
+    flex-flow: row wrap; }
+    #volunteer-page-hero .volunteer-page-options article:nth-of-type(1) {
+      width: 100%;
+      height: 250px; }
+    #volunteer-page-hero .volunteer-page-options article:nth-of-type(2) {
+      width: 100%;
+      height: 250px; }
 
   #volunteer-page-opportunities .volunteer-page-opportunities-container {
     display: flex;
