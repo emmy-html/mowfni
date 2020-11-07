@@ -494,7 +494,7 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 400px;
+      height: 300px;
       width: 100%; }
       #about-page-hero .about-page-hero-content article h2 {
         min-width: 280px;
@@ -2735,20 +2735,23 @@ footer {
     #about-mow-page-locations ::-webkit-scrollbar {
       width: 10px; }
     #about-mow-page-locations ::-webkit-scrollbar-track {
-      background: #f1f1f1; }
+      background: #003952; }
     #about-mow-page-locations ::-webkit-scrollbar-thumb {
-      background: #003952; }
+      background: #a9cf38; }
     #about-mow-page-locations ::-webkit-scrollbar-thumb:hover {
-      background: #003952; }
+      background: #a9cf38; }
     #about-mow-page-locations .about-mow-page-locations-content {
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: row-reverse wrap;
       justify-content: space-around; }
       #about-mow-page-locations .about-mow-page-locations-content .map {
         width: 55%;
-        height: auto; }
+        height: 600px; }
       #about-mow-page-locations .about-mow-page-locations-content .map-locations {
-        width: 45%; }
+        width: 45%;
+        height: 600px;
+        overflow-y: scroll;
+        overflow-x: hidden; }
         #about-mow-page-locations .about-mow-page-locations-content .map-locations .map-locations-container {
           display: flex;
           flex-direction: column;

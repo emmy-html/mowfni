@@ -503,7 +503,7 @@ footer {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 400px;
+      height: 300px;
       width: 100%;
       h2 {
         min-width: 280px;
@@ -2268,26 +2268,29 @@ footer {
     }
     /* Track */
     ::-webkit-scrollbar-track {
-      background: #f1f1f1;
+      background: $dark-blue;
     }
     /* Handle */
     ::-webkit-scrollbar-thumb {
-      background: $dark-blue;
+      background: $lime-green;
     }
     /* Handle on hover */
     ::-webkit-scrollbar-thumb:hover {
-      background: $dark-blue;
+      background: $lime-green;
     }
     .about-mow-page-locations-content {
       display: flex;
-      flex-flow: row wrap;
+      flex-flow: row-reverse wrap;
       justify-content: space-around;
       .map {
         width: 55%;
-        height: auto;
+        height: 600px;
       }
       .map-locations {
         width: 45%;
+        height: 600px;
+        overflow-y: scroll;
+        overflow-x: hidden;
         .map-locations-container {
           display: flex;
           flex-direction: column;
