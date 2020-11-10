@@ -334,7 +334,7 @@ main a:visited {
       height: 150px;
       padding: 20px 0px; }
     #involvement-cta .involvement-cta-content article h3 {
-      color: #fff;
+      color: #003952;
       font-size: 1.95rem;
       font-weight: 600;
       line-height: 1.75rem; }
@@ -497,13 +497,14 @@ footer {
       height: 300px;
       width: 100%; }
       #about-page-hero .about-page-hero-content article h2 {
+        color: #003952;
         min-width: 280px;
         max-width: 490px; }
       #about-page-hero .about-page-hero-content article:nth-of-type(1) {
-        background: center no-repeat url("../img/heavy-filter-02.png");
+        background: center no-repeat url("../img/about-mow-mission.png");
         background-size: cover; }
       #about-page-hero .about-page-hero-content article:nth-of-type(2) {
-        background: center no-repeat url("../img/heavy-filler-01.png");
+        background: center no-repeat url("../img/about-mow-vision.png");
         background-size: cover; }
 
 /* About Page > About Us > Our History Section */
@@ -1149,7 +1150,7 @@ footer {
       #donation-page-cta .impact-content article h2 span {
         display: block; } }
 
-/* Other Ways To Give Page */
+/* Other Ways To Get Involved Page */
 #other-ways-page {
   padding-top: 75px; }
   #other-ways-page h1 {
@@ -1323,6 +1324,8 @@ footer {
     background: #fff;
     color: #003952;
     padding: 20px 0px; }
+  #other-ways-page .tablinks {
+    text-transform: none !important; }
 
 /* Current Events Page */
 #current-events-page {
@@ -2571,7 +2574,7 @@ footer {
         background: #a9cf38;
         transition: 1s background; }
 
-  /* Other Ways to Donate Page */
+  /* Other Ways to Get Involved Page */
   #other-ways-page article.other-ways-desc {
     display: flex;
     flex-flow: row nowrap;

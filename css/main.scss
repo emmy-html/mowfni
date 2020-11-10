@@ -342,7 +342,7 @@ main {
         padding: 20px 0px;
       }
       h3 {
-        color: #fff;
+        color: $dark-blue;
         font-size: 1.95rem;
         font-weight: 600;
         line-height: 1.75rem;
@@ -506,15 +506,16 @@ footer {
       height: 300px;
       width: 100%;
       h2 {
+        color: $dark-blue;
         min-width: 280px;
         max-width: 490px;
       }
       &:nth-of-type(1) {
-        background: center no-repeat url('../img/heavy-filter-02.png');
+        background: center no-repeat url('../img/about-mow-mission.png');
         background-size: cover;
       }
       &:nth-of-type(2) {
-        background: center no-repeat url('../img/heavy-filler-01.png');
+        background: center no-repeat url('../img/about-mow-vision.png');
         background-size: cover;
       }
     }
@@ -999,7 +1000,7 @@ footer {
   @include page-header;
   @include cta-stats;
 }
-/* Other Ways To Give Page */ 
+/* Other Ways To Get Involved Page */ 
 #other-ways-page {
   @include page-header;
   @include fontawesome-icon;
@@ -1092,6 +1093,9 @@ footer {
     background: #fff;
     color: $dark-blue;
     padding: 20px 0px;
+  }
+  .tablinks {
+    text-transform: none !important;
   }
 }
 /* Current Events Page */
@@ -2050,7 +2054,7 @@ footer {
       }
     }
   }
-  /* Other Ways to Donate Page */ 
+  /* Other Ways to Get Involved Page */ 
   #other-ways-page {
     article.other-ways-desc {
       display: flex;
