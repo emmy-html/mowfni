@@ -724,6 +724,7 @@ footer {
   }
   .donation-page-content-container {
     @include button-container;
+    padding-top: 20px;
     .button-container {
       margin-bottom: 20px;
       .rounded-blue-button {
@@ -736,7 +737,6 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 30px 0px;
     .donation-container {
       display: flex;
       flex-direction: column;
@@ -790,13 +790,34 @@ footer {
         overflow: hidden;
       }
     }
-    .employee-match {
-      .button-container {
-        padding: 0px 20px;
-        .rounded-green-button {
-          &:hover {
-            background: #fff;
-          }
+  }
+  .donation-page-donor-support {
+    margin: 10px 0px;
+    padding: 10px 0px;
+    h1 {
+      background: $light-blue;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 100px;
+    }
+    a:link,
+    a:visited {
+      border-bottom: 2px solid $lime-green;
+      text-transform: none;
+      &:hover {
+        border-bottom: 2px solid #fff;
+      }
+    }
+    .button-container {
+      margin: 20px;
+      a:link,
+      a:visited {
+        text-transform: uppercase;
+        border-bottom: none;
+        &:hover {
+          background: #fff;
         }
       }
     }
@@ -959,33 +980,6 @@ footer {
   }
   .content-wrapper {
     margin-top: 16px;
-  }
-  .donation-page-giving-options,
-  .donation-page-donor-support {
-    background: #fff;
-    color: $dark-blue;
-    p {
-      text-align: justify;
-    }
-    i {
-      background: $dark-blue;
-      color: $lime-green;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100px;
-      height: 100px;
-      text-align: center;
-      border-radius: 100px;
-      margin: 0 auto;
-    }
-    .button-container {
-      background: $dark-blue;
-      padding: 20px;
-      .rounded-blue-button {
-        @include body-blue-button;
-      }
-    }
   }
 
   .donor-support-icons {
@@ -1994,6 +1988,11 @@ footer {
           padding: 10px 0px;
         }
       }
+      .donation-page-donor-support {
+        background: $light-blue;
+        width: 55%;
+        margin: 0 auto;
+      }
     }
     .content-wrapper {
       h2 {
@@ -2048,52 +2047,6 @@ footer {
       margin: 20px;
       .rounded-blue-button {
         @include body-blue-button;
-      }
-    }
-  }
-  #donation-page-additional-support {
-    .additional-support-container {
-      display: flex;
-      flex-flow: row wrap;
-      align-items: flex-start;
-      article {
-        width: 50%;
-      }
-      aside {
-        width: 50%;
-      }
-      .donation-page-giving-options {
-        order: 1;
-        height: 480px;
-      }
-      .first-photo {
-        order: 2;
-        height: 480px;
-      }
-      .second-photo {
-        order: 3;
-        height: 350px;
-      }
-      .donation-page-donor-support {
-        order: 4;
-        height: 350px;
-      }
-      
-      .donation-page-giving-options,
-      .donation-page-donor-support {
-        height: auto;
-      }
-      .donation-page-donor-support {
-        .donor-support-icons {
-          width: 400px;
-          margin: 0 auto;
-          i {
-            margin: 0;
-          }
-          img {
-            margin: 0;
-          }
-        }
       }
     }
   }
