@@ -2896,7 +2896,23 @@ footer {
       justify-content: center;
       align-items: center;
       width: 50%;
-      height: 400px; } }
+      height: 400px; }
+
+  /* New Donate Page */
+  #new-donate-page .donation-page-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center; }
+    #new-donate-page .donation-page-content-container article:nth-of-type(1) {
+      width: 30%; }
+    #new-donate-page .donation-page-content-container aside.faq-and-desc {
+      width: 75%; }
+      #new-donate-page .donation-page-content-container aside.faq-and-desc h1 {
+        background: none; }
+    #new-donate-page .donation-page-content-container article.donation-page-donor-support {
+      margin: 0 auto;
+      width: 50%; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

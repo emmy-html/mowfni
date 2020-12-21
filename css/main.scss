@@ -2451,6 +2451,28 @@ footer {
       }
     }
   }
+  /* New Donate Page */ 
+  #new-donate-page {
+    .donation-page-content-container {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: center;
+      article:nth-of-type(1) {
+        width: 30%;
+      }
+      aside.faq-and-desc {
+        h1 {
+          background: none;
+        }
+        width: 75%;
+      }
+      article.donation-page-donor-support {
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
+  }
 }
 /*
 * Hide only visually, but have it available for screen readers:
