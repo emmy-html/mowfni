@@ -2412,7 +2412,8 @@ footer {
   margin-top: 75px;
   /* comment out in the wordpress theme css */
   background: #fff;
-  color: #003952; }
+  color: #003952;
+  font-family: "Poppins", sans-serif; }
   #shop-home-template h1 {
     background: #a9cf38;
     color: #003952;
@@ -2424,7 +2425,6 @@ footer {
     #shop-home-template h1 span {
       color: #003952; }
   #shop-home-template .shop-data {
-    font-family: "Poppins", sans-serif;
     padding: 10px 0px; }
     #shop-home-template .shop-data a:link,
     #shop-home-template .shop-data a:visited {
@@ -2435,16 +2435,12 @@ footer {
       font-size: 1rem; }
     #shop-home-template .shop-data .shop-sorting p {
       margin: 5px 0px; }
-    #shop-home-template .shop-data .shop-sorting form {
-      display: flex;
-      justify-content: space-between;
-      width: 100%; }
-      #shop-home-template .shop-data .shop-sorting form select {
-        background: #a9cf38;
-        border: 1px solid #003952;
-        color: #003952;
-        outline: none;
-        width: 200px; }
+    #shop-home-template .shop-data .shop-sorting select {
+      background: #a9cf38;
+      border: 1px solid #003952;
+      color: #003952;
+      margin-left: 5px;
+      width: 211px; }
   #shop-home-template .shop-home-products-container {
     padding: 10px 0px; }
     #shop-home-template .shop-home-products-container aside .product-image {
@@ -2971,7 +2967,10 @@ footer {
         background: none; }
     #new-donate-page .donation-page-content-container article.donation-page-donor-support {
       margin: 0 auto;
-      width: 50%; } }
+      width: 50%; }
+
+  /* woocommerce / shop page templates */
+  /* shop home page */ }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility

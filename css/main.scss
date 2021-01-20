@@ -1813,8 +1813,8 @@ footer {
   margin-top: 75px; /* comment out in the wordpress theme css */ 
   background: #fff;
   color: $dark-blue;
+  font-family: $heading-font;
   .shop-data {
-    font-family: $heading-font;
     padding: 10px 0px;
     a:link,
     a:visited {
@@ -1829,17 +1829,12 @@ footer {
       p {
         margin: 5px 0px;
       }
-      form {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        select {
-          background: $lime-green;
-          border: 1px solid $dark-blue;
-          color: $dark-blue;
-          outline: none;
-          width: 200px;
-        }
+      select {
+        background: $lime-green;
+        border: 1px solid $dark-blue;
+        color: $dark-blue;
+        margin-left: 5px;
+        width: 211px;
       }
     }
   }
@@ -2515,6 +2510,14 @@ footer {
       article.donation-page-donor-support {
         margin: 0 auto;
         width: 50%;
+      }
+    }
+  }
+  /* woocommerce / shop page templates */ 
+  /* shop home page */ 
+  #shop-home-template {
+    .shop-data {
+      .shop-sorting {
       }
     }
   }
