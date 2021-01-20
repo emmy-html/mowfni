@@ -112,27 +112,6 @@ textarea {
 @import "variables";
 @import "mixins";
 /* Universal Styles */ 
-/* scrollbar */ 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: $dark-blue;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: $lime-green;
-  height: 40px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #fff;
-}
 body {
   background: $dark-blue;
   color: #fff;
@@ -1823,6 +1802,72 @@ footer {
       }
       p {
         text-align: justify;
+      }
+    }
+  }
+}
+/* woocommerce / shop templates */
+/* shop home page */ 
+#shop-home-template {
+  @include page-header;
+  margin-top: 75px; /* comment out in the wordpress theme css */ 
+  background: #fff;
+  color: $dark-blue;
+  .shop-data {
+    font-family: $heading-font;
+    padding: 10px 0px;
+    a:link,
+    a:visited {
+      border-bottom: none;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+    span {
+      font-size: 1rem;
+    }
+    .shop-sorting {
+      p {
+        margin: 5px 0px;
+      }
+      form {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        select {
+          background: $lime-green;
+          border: 1px solid $dark-blue;
+          color: $dark-blue;
+          outline: none;
+          width: 200px;
+        }
+      }
+    }
+  }
+  .shop-home-products-container {
+    padding: 10px 0px;
+    aside {
+      .product-image {
+        padding: 10px 0px;
+        width: 100%;
+      }
+      h2 {
+        font-weight: 700;
+        span {
+          display: block;
+          font-weight: 300;
+          padding: 5px 0px;
+        }
+      }
+      .button-container {
+        @include button-container;
+        margin: 10px 0px;
+        a:link,
+        a:visited {
+          border-bottom: none;
+        }
+        .body-blue-button {
+          @include body-blue-button;
+        }
       }
     }
   }
