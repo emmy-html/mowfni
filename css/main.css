@@ -2498,7 +2498,8 @@ footer {
         padding: 10px 0px; }
       #shop-template .shop-products-container.single-product .single-product-description p {
         margin: 0px;
-        padding: 5px 0px; }
+        padding: 5px 0px;
+        text-align: justify; }
       #shop-template .shop-products-container.single-product .single-product-description img {
         filter: grayscale(100%);
         width: 100%; }
@@ -2510,23 +2511,24 @@ footer {
       flex-flow: row nowrap;
       width: 100%; }
       #shop-template .single-product-cart form input[type="number"] {
-        background: #00b5c2;
-        border: 1px solid #00b5c2;
+        background: #a9cf38;
+        border: 1px solid #a9cf38;
+        color: #003952;
         outline: none;
         width: 6%;
         padding: 10px; }
       #shop-template .single-product-cart form input[type="submit"] {
-        background: #a9cf38;
-        border: 1px solid #a9cf38;
+        background: #00b5c2;
+        border: 1px solid #00b5c2;
         color: #003952;
         font-weight: 700;
         padding: 10px;
         text-transform: uppercase;
         width: 94%; }
         #shop-template .single-product-cart form input[type="submit"]:hover {
-          background: #003952;
-          border: 1px solid #003952;
-          color: #fff;
+          background: #a9cf38;
+          border: 1px solid #a9cf38;
+          color: #003952;
           transition: .3s background, border; }
 
 /* Large Tablets & Desktop Styles */
@@ -3021,17 +3023,42 @@ footer {
 
   /* woocommerce / shop page templates */
   /* shop home page */
-  #shop-template .shop-data .shop-sorting {
-    display: flex;
-    justify-content: space-between; }
-  #shop-template .shop-products-container {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row wrap;
-    width: 100%; }
-    #shop-template .shop-products-container aside {
-      width: 30%;
-      padding-bottom: 30px; } }
+  #shop-template {
+    /* single product page template */ }
+    #shop-template .shop-data .shop-sorting {
+      display: flex;
+      justify-content: space-between; }
+    #shop-template .shop-products-container {
+      display: flex;
+      justify-content: space-between;
+      flex-flow: row wrap;
+      width: 100%; }
+      #shop-template .shop-products-container aside {
+        width: 30%;
+        padding-bottom: 30px; }
+    #shop-template .shop-products-container.single-product {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: space-between;
+      align-items: flex-start;
+      width: 100%;
+      padding-bottom: 20px; }
+      #shop-template .shop-products-container.single-product .single-product-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%; }
+        #shop-template .shop-products-container.single-product .single-product-image img {
+          width: 75%; }
+      #shop-template .shop-products-container.single-product .single-product-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 45%; }
+        #shop-template .shop-products-container.single-product .single-product-description img {
+          width: 50%; } }
 /*
 * Hide only visually, but have it available for screen readers:
 * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
