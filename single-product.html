@@ -182,78 +182,30 @@
             <div class="content-wrapper">
                 <article class="shop-data">
                     <aside class="shop-navigation">
-                        <a href="#">Home</a> <span>&#8250;</span> <a href="#" class="active-shop-link">Shop</a>
-                    </aside>
-                    <aside class="shop-sorting">
-                        <p>Showing all 6 results</p>
-                        <form>
-                            <label for="sort-options">Sort by:</label>
-                                <select id="sort-options" name="options-list">
-                                <option value="menu_order">Default</option>
-                                <option value="popularity">Popularity</option>
-                                <option value="price">Price: low to high</option>
-                                <option value="price-desc">Price: high to low</option>
-                                </select>
-                        </form>
+                        <a href="#">Home</a> <span>&#8250;</span> <a href="#">Shop</a> <span>&#8250;</span> <a href="#" class="active-shop-link">Shirt</a>
                     </aside>
                 </article>
-                <article class="shop-products-container">
+                <article class="shop-products-container single-product">
                     <aside>
-                        <a href="#"><img src="img/product-filler.png" class="product-image"></a>
+                        <img src="img/product-filler.png" class="product-image">
                         <h2>Shirt
                             <span>$25.00</span>
                         </h2>
-                        <div class="button-container">
-                            <a href="#" class="body-blue-button">Add to Cart</a>
-                        </div>
                     </aside>
-                    <aside>
-                        <a href="#"><img src="img/product-filler.png" class="product-image"></a>
-                        <h2>Shirt
-                            <span>$25.00</span>
-                        </h2>
-                        <div class="button-container">
-                            <a href="#" class="body-blue-button">Add to Cart</a>
-                        </div>
-                    </aside>
-                    <aside>
-                        <a href="#"><img src="img/product-filler.png" class="product-image"></a>
-                        <h2>Shirt
-                            <span>$25.00</span>
-                        </h2>
-                        <div class="button-container">
-                            <a href="#" class="body-blue-button">Add to Cart</a>
-                        </div>
-                    </aside>
-                    <aside>
-                        <a href="#"><img src="img/product-filler.png" class="product-image"></a>
-                        <h2>Shirt
-                            <span>$25.00</span>
-                        </h2>
-                        <div class="button-container">
-                            <a href="#" class="body-blue-button">Add to Cart</a>
-                        </div>
-                    </aside>
-                    <aside>
-                        <a href="#"><img src="img/product-filler.png" class="product-image"></a>
-                        <h2>Shirt
-                            <span>$25.00</span>
-                        </h2>
-                        <div class="button-container">
-                            <a href="#" class="body-blue-button">Add to Cart</a>
-                        </div>
-                    </aside>
-                    <aside>
-                        <a href="#"><img src="img/product-filler.png" class="product-image"></a>
-                        <h2>Shirt
-                            <span>$25.00</span>
-                        </h2>
-                        <div class="button-container">
-                            <a href="#" class="body-blue-button">Add to Cart</a>
-                        </div>
+                    <aside class="single-product-description">
+                        <h2>Product Description</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <h2>Size Chart</h2>
+                        <img src="img/product-chart-filler.png">
                     </aside>
                 </article>
             </div>
+            <aside class="single-product-cart">
+                <form>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10" value="1" placeholder="#">
+                    <input type="submit" id="submit" value="Add to Cart">
+                </form>
+            </aside>
         </section>
     </main>
     <footer>

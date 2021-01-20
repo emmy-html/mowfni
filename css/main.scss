@@ -1808,7 +1808,7 @@ footer {
 }
 /* woocommerce / shop templates */
 /* shop home page */ 
-#shop-home-template {
+#shop-template {
   @include page-header;
   margin-top: 75px; /* comment out in the wordpress theme css */ 
   background: #fff;
@@ -1822,8 +1822,14 @@ footer {
       font-weight: 300;
       text-transform: uppercase;
     }
-    span {
-      font-size: 1rem;
+    a:link.active-shop-link,
+    a:visited.active-shop-link {
+      font-weight: 500;
+    }
+    .shop-navigation {
+      span {
+        font-size: 1.25rem;
+      }
     }
     .shop-sorting {
       p {
@@ -1838,7 +1844,7 @@ footer {
       }
     }
   }
-  .shop-home-products-container {
+  .shop-products-container {
     padding: 10px 0px;
     aside {
       a:link,
@@ -1874,7 +1880,59 @@ footer {
       }
     }
   }
+  /* single product page template */ 
+  .shop-products-container.single-product {
+    padding: 0px !important;
+    padding-bottom: 20px !important;
+    .single-product-description {
+      font-family: $body-font;
+      margin: 0 auto;
+      h2 {
+        padding: 10px 0px;
+      }
+      p {
+        margin: 0px;
+        padding: 5px 0px;
+      }
+      img {
+        filter: grayscale(100%);
+        width: 100%;
+      }
+    }
+  }
+  .single-product-cart {
+    position: sticky;
+    bottom: 0px;
+    form {
+      display: flex;
+      flex-flow: row nowrap;
+      width: 100%;
+      input[type="number"] {
+        background: $light-blue;
+        border: 1px solid $light-blue;
+        outline: none;
+        width: 6%;
+        padding: 10px;
+      }
+      input[type="submit"] {
+        background: $lime-green;
+        border: 1px solid $lime-green;
+        color: $dark-blue;
+        font-weight: 700;
+        padding: 10px;
+        text-transform: uppercase;
+        width: 94%;
+        &:hover {
+          background: $dark-blue;
+          border: 1px solid $dark-blue;
+          color: #fff;
+          transition: .3s background, border;
+        }
+      }
+    }
+  }
 }
+
 /* Large Tablets & Desktop Styles */ 
 @media screen and (min-width: 992px) {
   /* Universal Styles */ 
@@ -2523,14 +2581,14 @@ footer {
   }
   /* woocommerce / shop page templates */ 
   /* shop home page */ 
-  #shop-home-template {
+  #shop-template {
     .shop-data {
       .shop-sorting {
         display: flex;
         justify-content: space-between;
       }
     }
-    .shop-home-products-container {
+    .shop-products-container {
       display: flex;
       justify-content: space-between;
       flex-flow: row wrap;
